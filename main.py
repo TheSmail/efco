@@ -1,9 +1,9 @@
 import requests
 import auth_data
+import city
 import re
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-
 
 session = requests.Session()
 
@@ -38,21 +38,32 @@ def parser():
                 'cityIn': cols[24].strong.text,
                 'urlBet10': btnBet
             })
-        print("Парсинг окончен")
+        print("Парсинг окончен\n")
     else:
         print("Нет торгов")
         session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
         betTask = None
 
-    city = "Краснодар"
-    cityRe = r"%s\b" % city
-    for i in range(len(betTask)):
-        if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city]):
-            urlBet = str(betTask[i].get('urlBet10'))
-            session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
-            print(urlBet)
-            break
+    msg = ''
+    for j in range(len(city.C)):
+        cityRe = r"%s\b" % city.C[j]
+        if msg == '':
+            for i in range(len(betTask)):
+                if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city.C[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city.C[j]]):
+                    urlBet = str(betTask[i].get('urlBet10'))
+                    session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+                    msg = 'Заявка выбрана!' + '\n\n' + 'Номер заявки: ' + betTask[i].get('num') + '\n Из: ' + betTask[i].get('cityOut') + '\n В: ' + betTask[i].get('cityIn')
+                    print(msg)
+                    break
+
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+
+    f = open('logs.txt', 'w')
+    for i in range(len(betTask)):
+        for key, value in betTask[i].items():
+            f.write("{0}: {1}".format(key, value) + "\n")
+        f.write("\n")
+    f.close()
 
 def main():
     parser()
