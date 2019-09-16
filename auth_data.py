@@ -6,7 +6,6 @@ def get_pass():
     return data
 
 def main():
-    #get_pass()
     keyring.set_password("system", "evgen28rus@mail.ru", "had2911")
 
 if __name__ == '__main__':
