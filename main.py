@@ -58,7 +58,7 @@ def parser():
 
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-    f = open('logs.txt', 'w')
+    f = open('logs/logs.txt', 'w')
     for i in range(len(betTask)):
         for key, value in betTask[i].items():
             f.write("{0}: {1}".format(key, value) + "\n")
