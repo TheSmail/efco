@@ -8,8 +8,8 @@ from fake_useragent import UserAgent
 session = requests.Session()
 
 def parser():
-    #url = "http://y91805lt.beget.tech"
-    url = "http://taman.trans.efko.ru/trade/2"
+    url = "http://y91805lt.beget.tech"
+    #url = "http://taman.trans.efko.ru/trade/2"
     url_auth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
 

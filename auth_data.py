@@ -3,6 +3,7 @@ def get_pass():
     login = "evgen28rus@mail.ru"
     passwd = keyring.get_password("system", login)
     data = {'xLogin':login, 'xPassword':passwd}
+
     return data
 
 def main():
