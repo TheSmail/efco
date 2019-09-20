@@ -29,7 +29,6 @@ def echo_city(message):
     markup.add(exit)
 
     bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>', parse_mode='HTML')
-    bot.send_message(message.chat.id, 'Не работает')
 
     @bot.message_handler(content_types=['text'])
     @bot.edited_message_handler(content_types=['text'])
