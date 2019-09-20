@@ -29,7 +29,7 @@ def parser():
             cols = rows.find_all('td')
             btnBet = rows.find('button', class_='newbet')
 
-            if '10' in btnBet.text:
+            if config.price in btnBet.text:
                 btnBet = urlBet + btnBet.attrs['href']
             else: btnBet = 'http://fake.ru'
 
@@ -47,11 +47,16 @@ def parser():
         betTask = None
 
     count = 0
-    for j in range(len(config.city)):
-        cityRe = r"%s\b" % config.city[j]
+
+    f = open('city.txt', 'r')
+    city = f.read().split(', ')
+    f.close()
+
+    for j in range(len(city)):
+        cityRe = r"%s\b" % city[j]
         if count < config.sumBet:
             for i in range(len(betTask)):
-                if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [config.city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [config.city[j]]):
+                if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city[j]]):
                     urlBet = str(betTask[i].get('urlBet10'))
                     session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 

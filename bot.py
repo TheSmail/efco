@@ -18,7 +18,7 @@ def command_handler(message):
 
     markup.add(edit_city, what)
 
-    bot.send_message(message.chat.id, 'Выбери функцию', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Выбери функцию⬇️', reply_markup=markup)
 
 @bot.message_handler(regexp="Список городов")
 @bot.edited_message_handler(regexp="Список городов")
@@ -28,8 +28,18 @@ def echo_city(message):
 
     markup.add(exit)
 
-    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>', parse_mode='HTML', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>', parse_mode='HTML')
     bot.send_message(message.chat.id, 'Не работает')
+
+    @bot.message_handler(content_types=['text'])
+    @bot.edited_message_handler(content_types=['text'])
+    def echo_edit(message):
+        if message.text:
+            f = open('city.txt', 'w')
+            f.write(message.text)
+            f.close()
+        bot.send_message(message.chat.id, 'Запомнил', reply_markup=markup)
+
 
 @bot.message_handler(regexp="Что взял?")
 @bot.edited_message_handler(regexp="Что взял?")
