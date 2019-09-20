@@ -37,7 +37,7 @@ def echo_city(message):
             f = open('city.txt', 'w')
             f.write(message.text)
             f.close()
-        bot.send_message(message.chat.id, 'Запомнил' + message.text, reply_markup=markup)
+        bot.send_message(message.chat.id, 'Запомнил: ' + message.text, reply_markup=markup)
 
 
 @bot.message_handler(regexp="Что взял?")
