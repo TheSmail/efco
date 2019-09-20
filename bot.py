@@ -10,18 +10,40 @@ TOKEN = '983071785:AAE-4gKtJpp7PA1wLtcXUtdvUz9duTP1BnA'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
+@bot.message_handler(regexp="Назад")
 def command_handler(message):
     markup = types.ReplyKeyboardMarkup(row_width=2)
     edit_city = types.KeyboardButton('Список городов')
+    what = types.KeyboardButton('Что взял?')
 
-    markup.add(edit_city)
+    markup.add(edit_city, what)
 
-    bot.send_message(message.chat.id, 'Нажми на кнопку', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Выбери функцию', reply_markup=markup)
 
 @bot.message_handler(regexp="Список городов")
 @bot.edited_message_handler(regexp="Список городов")
 def echo_city(message):
-    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>', parse_mode='HTML')
+    markup = types.ReplyKeyboardMarkup(row_width=2)
+    exit = types.KeyboardButton('Назад')
+
+    markup.add(exit)
+
+    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>', parse_mode='HTML', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Не работает')
+
+@bot.message_handler(regexp="Что взял?")
+@bot.edited_message_handler(regexp="Что взял?")
+def echo_what(message):
+    f = open('logs/GOOD_bet.txt', 'r')
+    msg = f.read()
+    f.close()
+
+    markup = types.ReplyKeyboardMarkup(row_width=2)
+    exit = types.KeyboardButton('Назад')
+
+    markup.add(exit)
+
+    bot.send_message(message.chat.id, msg, parse_mode='HTML', reply_markup=markup)
 
 
 def main():

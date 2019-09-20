@@ -1,5 +1,5 @@
 import requests
-import city
+import config
 import re
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
@@ -7,15 +7,19 @@ from fake_useragent import UserAgent
 session = requests.Session()
 
 def parser():
+    f = open('logs/GOOD_bet.txt', 'w')
+    f.write('Мои ставки:\n')
+    f.close()
+
     #url = "http://y91805lt.beget.tech"
     url = "http://taman.trans.efko.ru/trade/2"
-    url_auth = "http://taman.trans.efko.ru/login.php"
+    urlAuth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
+    urlBet = "http://taman.trans.efko.ru"
 
     betTask = []
-    data = {'xLogin': 'evgen28rus@mail.ru', 'xPassword': 'had2911'}
 
-    session.post(url_auth, data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
     html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
     soup = BeautifulSoup(html.content, 'lxml')
@@ -25,11 +29,9 @@ def parser():
             cols = rows.find_all('td')
             btnBet = rows.find('button', class_='newbet')
 
-            url = "http://taman.trans.efko.ru"
-
-            if '11' in btnBet.text:
-                btnBet = url + btnBet.attrs['href']
-            else: btnBet = None
+            if '10' in btnBet.text:
+                btnBet = urlBet + btnBet.attrs['href']
+            else: btnBet = 'http://fake.ru'
 
             betTask.append({
                 'num': cols[0].strong.text,
@@ -45,16 +47,21 @@ def parser():
         betTask = None
 
     count = 0
-    for j in range(len(city.C)):
-        cityRe = r"%s\b" % city.C[j]
-        if count < 3:
+    for j in range(len(config.city)):
+        cityRe = r"%s\b" % config.city[j]
+        if count < config.sumBet:
             for i in range(len(betTask)):
-                if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city.C[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city.C[j]]):
+                if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [config.city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [config.city[j]]):
                     urlBet = str(betTask[i].get('urlBet10'))
-                    #session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
-                    msg = 'Заявка выбрана!' + '\n\n' + 'Номер заявки: ' + betTask[i].get('num') + '\n Из: ' + betTask[i].get('cityOut') + '\n В: ' + betTask[i].get('cityIn')
+                    session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+
+                    msg = 'Номер заявки: <b>' + betTask[i].get('num') + '</b>\nДата: ' + betTask[i].get('date') + '\nИз: ' + betTask[i].get('cityOut') + '\nВ: ' + betTask[i].get('cityIn') + '\n\n'
+
+                    f = open('logs/GOOD_bet.txt', 'a')
+                    f.write(msg)
+                    f.close()
+
                     count += 1
-                    print(msg)
                     break
 
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
