@@ -27,7 +27,7 @@ def parser():
 
             url = "http://taman.trans.efko.ru"
 
-            if '10' in btnBet.text:
+            if '11' in btnBet.text:
                 btnBet = url + btnBet.attrs['href']
             else: btnBet = None
 
@@ -51,7 +51,7 @@ def parser():
             for i in range(len(betTask)):
                 if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city.C[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city.C[j]]):
                     urlBet = str(betTask[i].get('urlBet10'))
-                    session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+                    #session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
                     msg = 'Заявка выбрана!' + '\n\n' + 'Номер заявки: ' + betTask[i].get('num') + '\n Из: ' + betTask[i].get('cityOut') + '\n В: ' + betTask[i].get('cityIn')
                     count += 1
                     print(msg)
