@@ -43,7 +43,7 @@ def echo_city(message):
 @bot.message_handler(regexp="Что взял?")
 @bot.edited_message_handler(regexp="Что взял?")
 def echo_what(message):
-    f = open('logs/GOOD_bet.txt', 'r')
+    f = open('GOOD_bet.txt', 'r')
     msg = f.read()
     f.close()
 
