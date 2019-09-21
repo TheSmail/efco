@@ -1,13 +1,15 @@
 import telebot
 from telebot import apihelper
 from telebot import types
+from config import config
+from config import bdworker
 
 #apihelper.proxy = {'https':'socks5://4009548:mYlbBtTn@orbtl.s5.opennetwork.cc:999'}
 apihelper.proxy = {'https':'socks5://cqdFMa:Lkc29c@138.59.204.46:9165'}
 
 TOKEN = '983071785:AAE-4gKtJpp7PA1wLtcXUtdvUz9duTP1BnA'
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(config.TOKEN)
 
 @bot.message_handler(commands=['start'])
 @bot.message_handler(regexp="Назад")
@@ -78,16 +80,19 @@ def echo_city(message):
 
     bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск, Томск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML')
     bot.send_message(message.chat.id, 'Текущий список: <b>' + city + '</b>', reply_markup=markup, parse_mode='HTML')
+    bdworker.set_state(message.chat.id, config.States.S_CITY.value)
 
-    @bot.message_handler(content_types=['text'])
-    @bot.edited_message_handler(content_types=['text'])
-    def echo_edit(message):
-        if message.text:
-            f = open('config/city.txt', 'w')
-            f.write(message.text)
-            f.close()
-        bot.send_message(message.chat.id, 'Запомнил: ' + message.text)
-        command_handler(message)
+@bot.message_handler(func=lambda message: bdworker.get_current_state(message.chat.id) == config.States.S_CITY.value)
+def echo_edit(message):
+    if message.text:
+        f = open('config/city.txt', 'w')
+        f.write(message.text)
+        f.close()
+    bot.send_message(message.chat.id, 'Запомнил: <b>' + message.text + '</b>', parse_mode='HTML')
+    command_handler(message)
+    bdworker.set_state(message.chat.id, config.States.S_START.value)
+
+
 
 def main():
     bot.polling(none_stop=True)
