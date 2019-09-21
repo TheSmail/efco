@@ -14,12 +14,12 @@ bot = telebot.TeleBot(TOKEN)
 def command_handler(message):
     markup = types.ReplyKeyboardMarkup(row_width=2)
     edit_city = types.KeyboardButton('Список городов')
-    bet = types.KeyboardButton('Кол-во ставок')
+    bet = types.KeyboardButton('Кол-во заявок')
     what = types.KeyboardButton('Что взял?')
 
     markup.add(edit_city, bet, what)
 
-    bot.send_message(message.chat.id, 'Выбери функцию⬇️', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Выбери функцию ⬇️', reply_markup=markup)
 
 @bot.message_handler(regexp="Список городов")
 @bot.edited_message_handler(regexp="Список городов")
@@ -57,8 +57,8 @@ def echo_what(message):
     bot.send_message(message.chat.id, msg, parse_mode='HTML')
     command_handler(message)
 
-@bot.message_handler(regexp="Кол-во ставок")
-@bot.edited_message_handler(regexp="Кол-во ставок")
+@bot.message_handler(regexp="Кол-во заявок")
+@bot.edited_message_handler(regexp="Кол-во заявок")
 def echo_bet(message):
     markup = types.ReplyKeyboardMarkup(row_width=2)
 
@@ -70,7 +70,12 @@ def echo_bet(message):
 
     markup.add(one, two, three, four, exit)
 
-    bot.send_message(message.chat.id, 'Выбери сколько ставок брать', parse_mode='HTML', reply_markup=markup)
+    f = open('config/bet_num.txt', 'r')
+    msg = f.read()
+    f.close()
+
+    bot.send_message(message.chat.id, 'Выбери сколько заявок брать ⬇️ (только кнопками снизу)', parse_mode='HTML', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Текущее кол-во заявок: <b>' + msg + '</b>', parse_mode='HTML')
 
     @bot.message_handler(regexp="1")
     @bot.message_handler(regexp="2")
@@ -81,7 +86,7 @@ def echo_bet(message):
         f.write(message.text)
         f.close()
 
-        bot.send_message(message.chat.id, 'Возьму ' + message.text + ' ставку(-ки), если столько будет')
+        bot.send_message(message.chat.id, 'Новое кол-во заявок: <b>' + message.text + '</b>. Постараюсь взять, если столько будет', parse_mode='HTML')
         command_handler(message)
 
 def main():

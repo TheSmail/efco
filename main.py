@@ -9,7 +9,7 @@ session = requests.Session()
 
 def parser():
     f = open('logs/GOOD_bet.txt', 'w')
-    f.write('Взятые ставки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
+    f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
     f.close()
 
     url = "http://y91805lt.beget.tech"
