@@ -11,7 +11,7 @@ f = open('config/bet_num.txt', 'r')
 sumBet = int(f.read())
 f.close()#кол-во необходимых заявок
 
-price = '10'
+price = '9.9'
 
 class States(Enum):
     S_START = "0"  # Начало нового диалога
