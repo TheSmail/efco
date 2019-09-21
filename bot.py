@@ -29,7 +29,7 @@ def echo_city(message):
 
     markup.add(exit)
 
-    f = open('city.txt', 'r')
+    f = open('config/city.txt', 'r')
     city = f.read()
     f.close()
 
@@ -40,7 +40,7 @@ def echo_city(message):
     @bot.edited_message_handler(content_types=['text'])
     def echo_edit(message):
         if message.text:
-            f = open('city.txt', 'w')
+            f = open('config/city.txt', 'w')
             f.write(message.text)
             f.close()
         bot.send_message(message.chat.id, 'Запомнил: ' + message.text)
@@ -77,7 +77,7 @@ def echo_bet(message):
     @bot.message_handler(regexp="3")
     @bot.message_handler(regexp="4")
     def echo_bet_num(message):
-        f = open('bet_num.txt', 'w')
+        f = open('config/bet_num.txt', 'w')
         f.write(message.text)
         f.close()
 
