@@ -21,31 +21,6 @@ def command_handler(message):
 
     bot.send_message(message.chat.id, 'Выбери функцию ⬇️', reply_markup=markup)
 
-@bot.message_handler(regexp="Список городов")
-@bot.edited_message_handler(regexp="Список городов")
-def echo_city(message):
-    markup = types.ReplyKeyboardMarkup(row_width=2)
-    exit = types.KeyboardButton('Назад')
-
-    markup.add(exit)
-
-    f = open('config/city.txt', 'r')
-    city = f.read()
-    f.close()
-
-    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск, Томск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML')
-    bot.send_message(message.chat.id, 'Текущий список: <b>' + city + '</b>', reply_markup=markup, parse_mode='HTML')
-
-    @bot.message_handler(content_types=['text'])
-    @bot.edited_message_handler(content_types=['text'])
-    def echo_edit(message):
-        if message.text:
-            f = open('config/city.txt', 'w')
-            f.write(message.text)
-            f.close()
-        bot.send_message(message.chat.id, 'Запомнил: ' + message.text)
-        command_handler(message)
-
 
 @bot.message_handler(regexp="Что взял?")
 @bot.edited_message_handler(regexp="Что взял?")
@@ -87,6 +62,31 @@ def echo_bet(message):
         f.close()
 
         bot.send_message(message.chat.id, 'Новое кол-во заявок: <b>' + message.text + '</b>. Постараюсь взять, если столько будет', parse_mode='HTML')
+        command_handler(message)
+
+@bot.message_handler(regexp="Список городов")
+@bot.edited_message_handler(regexp="Список городов")
+def echo_city(message):
+    markup = types.ReplyKeyboardMarkup(row_width=2)
+    exit = types.KeyboardButton('Назад')
+
+    markup.add(exit)
+
+    f = open('config/city.txt', 'r')
+    city = f.read()
+    f.close()
+
+    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск, Томск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML')
+    bot.send_message(message.chat.id, 'Текущий список: <b>' + city + '</b>', reply_markup=markup, parse_mode='HTML')
+
+    @bot.message_handler(content_types=['text'])
+    @bot.edited_message_handler(content_types=['text'])
+    def echo_edit(message):
+        if message.text:
+            f = open('config/city.txt', 'w')
+            f.write(message.text)
+            f.close()
+        bot.send_message(message.chat.id, 'Запомнил: ' + message.text)
         command_handler(message)
 
 def main():
