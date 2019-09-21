@@ -5,6 +5,8 @@ import re
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from datetime import datetime
+import os
+script_dir = os.path.dirname(__file__)
 
 session = requests.Session()
 
@@ -64,7 +66,9 @@ def parser():
 
                     msg = 'Номер заявки: <b>' + betTask[i].get('num') + '</b>\nДата: ' + betTask[i].get('date') + '\nИз: ' + betTask[i].get('cityOut') + '\nВ: ' + betTask[i].get('cityIn') + '\n\n'
 
-                    f = open('logs/GOOD_bet.txt', 'a')
+                    rel_path = "logs/GOOD_bet.txt"
+                    abs = os.path.join(script_dir, rel_path)
+                    f = open(abs, 'a')
                     f.write(msg)
                     f.close()
 
