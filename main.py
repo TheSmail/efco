@@ -11,9 +11,7 @@ script_dir = os.path.dirname(__file__)
 session = requests.Session()
 
 def parser():
-    rel_path = "logs/GOOD_bet.txt"
-    abs = os.path.join(script_dir, rel_path)
-    f = open(abs, 'w')
+    f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'w')
     f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
     f.close()
 
@@ -54,9 +52,7 @@ def parser():
 
     count = 0
 
-    rel_path = "config/city.txt"
-    abs = os.path.join(script_dir, rel_path)
-    f = open(abs, 'r')
+    f = open(os.path.join(script_dir, 'config/city.txt'), 'r')
     city = f.read().split(', ')
     f.close()
 
@@ -70,9 +66,7 @@ def parser():
 
                     msg = 'Номер заявки: <b>' + betTask[i].get('num') + '</b>\nДата: ' + betTask[i].get('date') + '\nИз: ' + betTask[i].get('cityOut') + '\nВ: ' + betTask[i].get('cityIn') + '\n\n'
 
-                    rel_path = "logs/GOOD_bet.txt"
-                    abs = os.path.join(script_dir, rel_path)
-                    f = open(abs, 'a')
+                    f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
                     f.write(msg)
                     f.close()
 
@@ -81,9 +75,7 @@ def parser():
 
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-    rel_path = "logs/log_bet.txt"
-    abs = os.path.join(script_dir, rel_path)
-    f = open(abs, 'w')
+    f = open(os.path.join(script_dir, 'logs/log_bet.txt'), 'w')
     for i in range(len(betTask)):
         for key, value in betTask[i].items():
             f.write("{0}: {1}".format(key, value) + "\n")
