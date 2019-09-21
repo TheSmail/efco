@@ -8,7 +8,7 @@ from datetime import datetime
 session = requests.Session()
 
 def parser():
-    f = open('GOOD_bet.txt', 'w')
+    f = open('logs/GOOD_bet.txt', 'w')
     f.write('Взятые ставки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
     f.close()
 
@@ -63,7 +63,7 @@ def parser():
 
                     msg = 'Номер заявки: <b>' + betTask[i].get('num') + '</b>\nДата: ' + betTask[i].get('date') + '\nИз: ' + betTask[i].get('cityOut') + '\nВ: ' + betTask[i].get('cityIn') + '\n\n'
 
-                    f = open('GOOD_bet.txt', 'a')
+                    f = open('logs/GOOD_bet.txt', 'a')
                     f.write(msg)
                     f.close()
 
@@ -72,7 +72,7 @@ def parser():
 
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-    f = open('log_bet.txt', 'w')
+    f = open('logs/log_bet.txt', 'w')
     for i in range(len(betTask)):
         for key, value in betTask[i].items():
             f.write("{0}: {1}".format(key, value) + "\n")
