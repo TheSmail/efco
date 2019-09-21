@@ -37,8 +37,8 @@ def echo_city(message):
             f = open('city.txt', 'w')
             f.write(message.text)
             f.close()
-        bot.send_message(message.chat.id, 'Запомнил: ' + message.text, reply_markup=markup)
-        #command_handler(message)
+        bot.send_message(message.chat.id, 'Запомнил: ' + message.text)
+        command_handler(message)
 
 
 @bot.message_handler(regexp="Что взял?")
@@ -48,12 +48,8 @@ def echo_what(message):
     msg = f.read()
     f.close()
 
-    markup = types.ReplyKeyboardMarkup(row_width=2)
-    exit = types.KeyboardButton('Назад')
-
-    markup.add(exit)
-
-    bot.send_message(message.chat.id, msg, parse_mode='HTML', reply_markup=markup)
+    bot.send_message(message.chat.id, msg, parse_mode='HTML')
+    command_handler(message)
 
 def main():
     bot.polling(none_stop=True)
