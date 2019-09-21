@@ -1,13 +1,19 @@
 # -*- coding: utf-8 -*-
 
 from enum import Enum
+import os
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+
 
 TOKEN = '983071785:AAE-4gKtJpp7PA1wLtcXUtdvUz9duTP1BnA'
 db_file = "config/database.vdb"
 
 data = {'xLogin': 'evgen28rus@mail.ru', 'xPassword': 'had2911'}
 
-f = open('~/efco/config/bet_num.txt', 'r')
+rel_path = "bet_num.txt"
+abs = os.path.join(script_dir, rel_path)
+
+f = open(abs, 'r')
 sumBet = int(f.read())
 f.close()#кол-во необходимых заявок
 
