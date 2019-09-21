@@ -49,7 +49,7 @@ def parser():
 
     count = 0
 
-    f = open('city.txt', 'r')
+    f = open('config/city.txt', 'r')
     city = f.read().split(', ')
     f.close()
 
