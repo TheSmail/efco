@@ -28,7 +28,7 @@ def echo_city(message):
 
     markup.add(exit)
 
-    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML')
+    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML', reply_markup=markup)
 
     @bot.message_handler(content_types=['text'])
     @bot.edited_message_handler(content_types=['text'])
@@ -37,7 +37,8 @@ def echo_city(message):
             f = open('city.txt', 'w')
             f.write(message.text)
             f.close()
-        bot.send_message(message.chat.id, 'Запомнил: ' + message.text, reply_markup=markup)
+        bot.send_message(message.chat.id, 'Запомнил: ' + message.text)
+        command_handler(message)
 
 
 @bot.message_handler(regexp="Что взял?")
