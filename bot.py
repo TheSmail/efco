@@ -14,9 +14,10 @@ bot = telebot.TeleBot(TOKEN)
 def command_handler(message):
     markup = types.ReplyKeyboardMarkup(row_width=2)
     edit_city = types.KeyboardButton('Список городов')
+    bet = types.KeyboardButton('Кол-во ставок')
     what = types.KeyboardButton('Что взял?')
 
-    markup.add(edit_city, what)
+    markup.add(edit_city, bet, what)
 
     bot.send_message(message.chat.id, 'Выбери функцию⬇️', reply_markup=markup)
 
@@ -28,7 +29,12 @@ def echo_city(message):
 
     markup.add(exit)
 
-    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML', reply_markup=markup)
+    f = open('city.txt', 'r')
+    city = f.read()
+    f.close()
+
+    bot.send_message(message.chat.id, 'Напиши новый список в необходимой последовательности (предыдущий список будет удален!)\nПример написания: <b>Краснодар, Анапа, Крымск, Томск</b>\nЕсли напишешь без запятых или с маленькой буквы - все сломаешь', parse_mode='HTML')
+    bot.send_message(message.chat.id, 'Текущий список: <b>' + city + '</b>', reply_markup=markup, parse_mode='HTML')
 
     @bot.message_handler(content_types=['text'])
     @bot.edited_message_handler(content_types=['text'])
@@ -50,6 +56,33 @@ def echo_what(message):
 
     bot.send_message(message.chat.id, msg, parse_mode='HTML')
     command_handler(message)
+
+@bot.message_handler(regexp="Кол-во ставок")
+@bot.edited_message_handler(regexp="Кол-во ставок")
+def echo_bet(message):
+    markup = types.ReplyKeyboardMarkup(row_width=2)
+
+    one = types.KeyboardButton('1')
+    two = types.KeyboardButton('2')
+    three = types.KeyboardButton('3')
+    four = types.KeyboardButton('4')
+    exit = types.KeyboardButton('Назад')
+
+    markup.add(one, two, three, four, exit)
+
+    bot.send_message(message.chat.id, 'Выбери сколько ставок брать', parse_mode='HTML', reply_markup=markup)
+
+    @bot.message_handler(regexp="1")
+    @bot.message_handler(regexp="2")
+    @bot.message_handler(regexp="3")
+    @bot.message_handler(regexp="4")
+    def echo_bet_num(message):
+        f = open('bet_num.txt', 'w')
+        f.write(message.text)
+        f.close()
+
+        bot.send_message(message.chat.id, 'Возьму ' + message.text + ' ставку(-ки), если столько будет')
+        command_handler(message)
 
 def main():
     bot.polling(none_stop=True)
