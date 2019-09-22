@@ -17,7 +17,7 @@ f = open(abs, 'r')
 sumBet = int(f.read())
 f.close()#кол-во необходимых заявок
 
-price = '9.9'
+price = '10'
 
 class States(Enum):
     S_START = "0"  # Начало нового диалога
