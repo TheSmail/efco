@@ -2,233 +2,233 @@ num: 74726
 date: 09.08.2019
 cityOut: КПП-2
 cityIn: Учебный корпус - Завод
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?RYpQ9ltNQwdmvrEQy4QKTN4a-FwrahKwtE6gcHr02So
 
 num: 74882
 date: 09.08.2019
 cityOut: КПП №2 ООО "ПИ" (17 человек)
 cityIn: Учебный корпус (обратно в 15:30)
-urlBet10: http://taman.trans.efko.ru/bet.php?M9tqaU_MbCgvRX_6L_qZGordKQUw_4TwvMWOMiSQPRc
+urlBet10: http://fake.ru
 
 num: 74888
 date: 09.08.2019
 cityOut: кпп2
 cityIn: ст. Тамань - кпп2
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?kiJs0H5HKnw3Ii3QP7rNnDWNYO1l2_A8J11DXTYnpRI
 
 num: 75010
 date: 09.08.2019
 cityOut: п.Волна ул.Победы д.3
 cityIn: Гостиница "Бланко"
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?u9mlC5VWwjhHFUa8GTMwya_hMkApp1Ok2gQeCsT0WEQ
 
 num: 75011
 date: 09.08.2019
 cityOut: Гостиница "Бланко"
 cityIn: п.Волна ул.Победы д.3
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?MVHavkZGV_WJekwZYViycRFK4SDunCcA6tAib_36KJ4
 
 num: 75012
 date: 09.08.2019
 cityOut: п.Таманский ул.Виноградная 19, перекресток Тамань-Прогресс
 cityIn: Гостиница "Бланко"
-urlBet10: http://taman.trans.efko.ru/bet.php?UpIzTaesGznvBP-JATDoL-C1slCEwkW57eVx9hipuNo
+urlBet10: http://fake.ru
 
 num: 75013
 date: 09.08.2019
 cityOut: Гостиница "Бланко"
 cityIn: КПП2, п.Таманский ул.Виноградная д.19
-urlBet10: http://taman.trans.efko.ru/bet.php?zE730CAIkurGUv_VwRJZ3-Ng_NBxKalx9m-c1PMNoh0
+urlBet10: http://fake.ru
 
 num: 75047
 date: 09.08.2019
 cityOut: ТЗПМ
 cityIn: ж/д вокзал Анапа
-urlBet10: http://taman.trans.efko.ru/bet.php?AmoXO4UoXwL3f93XQSM9sdvaA0Dbkrw4laGjm13imPc
+urlBet10: http://fake.ru
 
 num: 75056
 date: 09.08.2019
 cityOut: г. Анапа, ул.Владимирская 148
 cityIn: тзпм-г. Анапа, ул.Владимирская 148
-urlBet10: http://taman.trans.efko.ru/bet.php?MOJvOJX-U3gc8ZaOBN-v3NnLO0IlZmEddJ13qJjvq6E
+urlBet10: http://fake.ru
 
 num: 75079
 date: 09.08.2019
 cityOut: ст Тамань г-ца Бланко
 cityIn: ООО ТЗПМ, ст Тамань г-ца Бланко
-urlBet10: http://taman.trans.efko.ru/bet.php?r-q8hKsjn6a8kyf1punpssYLOidANMk_18JWObzqzL4
+urlBet10: http://fake.ru
 
 num: 75084
 date: 09.08.2019
 cityOut: стоянка пи
 cityIn: стоянка черноморка-мжу сенной-энергосбыт темрюк-стоянка пи-ст.Старотитаровская
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?jiqrNV65k0B5SLDspY3wMuB40jjDZQGOS-pb-W63vic
 
 num: 75087
 date: 09.08.2019
 cityOut: ООО ПИ
 cityIn: Склад Тамань
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?oYfx_dbei-b9AffWtMHFPVGF11ovK69483xkesFKZRA
 
 num: 75089
 date: 09.08.2019
 cityOut: ООО "ПИ"
 cityIn: ВРСП "Черноморка", МЖУ "Сенной", Тамань, Веселовка, ООО "ПИ"
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?pq_dQ2UoXe6gEUfjoOHFk4rQrhBEaigdBnbjDJhHyeg
 
 num: 75090
 date: 09.08.2019
 cityOut: Склад Тамань
 cityIn: ООО ПИ
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?lXNXZCxNJVSCL7-nocPmN88ACAJCcxkR1eU1uuKApS8
 
 num: 75092
 date: 09.08.2019
 cityOut: cт.Тамань Бланко
 cityIn: завод
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?r9uNOxc6qOH2H0MwX8efwR5Xw2ZeWBW8gVd8S_pUV2c
 
 num: 75093
 date: 09.08.2019
 cityOut: завод
 cityIn: ст.Тамань Бланко
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?aaHO2KDhR0sEXh-3Z4Dt3dROoc0Pb6E6w5gAI2ltqS8
 
 num: 75095
 date: 09.08.2019
 cityOut: п Сенной - Темрюк, Горького 51
 cityIn: Краснодар, Чехова 17, Ковтюха 108, Бабушкина 37
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?EYMHSj0mccvfDnz9ZUWsJR4e2jxStDHsupo1WdcqQ_Q
 
 num: 75097
 date: 09.08.2019
 cityOut: ст.Тамань, ул.Мира, д.7, п.Сенной МЖУ, завод, п.Прогресс, ул.Степная, д.6,ст.Вышестеблиевская, ул.Ленина, маг.Долина
 cityIn: х.Белый, ул.Полевая, 21, завод, п.Сенной МЖУ, ст.Тамань, ул.Мира,д7
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?SYEBOi7XMhH_OlAW5P5CBJ7GZlL4p5sPf-STS2EzvNo
 
 num: 75098
 date: 09.08.2019
 cityOut: РП 7
 cityIn: РП 7
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?uEY567Ss4YgdlblH54JC4cIHpU8HOop9uymARqsCx20
 
 num: 75099
 date: 09.08.2019
 cityOut: РП 7
 cityIn: РП 7
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?LC_-MNJkeF9mdkmg3x0HpiMhF_8ppaQrwenBKhSGJS0
 
 num: 75100
 date: 09.08.2019
 cityOut: ООО"ПИ"
 cityIn: гостиница Бланко-ООО"ПИ"
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?0N8dnJHQmN7LAFDo32i45K8hrCcupQexLIuC3AXkxak
 
 num: 75103
 date: 09.08.2019
 cityOut: Г Анапа
 cityIn: ООО ПИ
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?r6VNAbfXTcCvK4t4SqCuS_j7R59561WcbKxdP5iCS7U
 
 num: 75106
 date: 09.08.2019
 cityOut: ООО ПИ
 cityIn: ст.Старотитаровская-г.Темрюк-Завод
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?EbLI4azSMpgy_BA-qPMfpGksBUDMmWTaiXCHVnXhf0Q
 
 num: 75107
 date: 09.08.2019
 cityOut: ООО "ТЗПМ"
 cityIn: склад Сенной, ООО "ТЗПМ"
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?y4d_mwKEAVNFS5176jiY9zTcsT8b-tvaV8oLsSkih0M
 
 num: 75111
 date: 09.08.2019
 cityOut: ООО "ТЗПМ"
 cityIn: г. Славянск-на-Кубани
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?IByHzFKHiXQ9uALImDSnreEvHt1ieXmF2uAOvfNxBLk
 
 num: 75119
 date: 09.08.2019
 cityOut: ООО ПИ
 cityIn: Сенной ООО ПИ
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?d7SXSixchM-ETHmO1yjgeagjhUigvX7e4Ce95e7_akE
 
 num: 75120
 date: 09.08.2019
 cityOut: ООО "ПИ" КПП №2
 cityIn: г.Темрюк ул. Карла Либнехта 5
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?uQS2GQfNuFbyPAIGG5N1ws0SxoyIZtqUS_RzDpfr10g
 
 num: 75122
 date: 09.08.2019
 cityOut: КПП Сенная
 cityIn: г.Темрюк
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?H0i5gYRH6rz_HLwM-LUNpjmdrFBYFl5Kb01GBtDER1k
 
 num: 75123
 date: 09.08.2019
 cityOut: Краснодарский край, Ж/Д Крымская
 cityIn: Краснодарский край, ст. Тамань, гос-ца "Александрия"
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?szAxcOGs7_NQdamwrOfQV7r3tg35iCNV4XBSAmNI6yU
 
 num: 75124
 date: 09.08.2019
 cityOut: гостиница "Бланко"
 cityIn: завод- гостиница
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?egklUFZ-DV0FqgDMMbn1jva-VKZiKSribt_lqTZLDHI
 
 num: 75126
 date: 09.08.2019
 cityOut: ООО"ПИ"
 cityIn: поселок Сенной ул.Мира д.94
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?iv0vSYABsn6R5knTiD8D6idpdn7B-ufanlMFzuTeEqE
 
 num: 75130
 date: 09.08.2019
 cityOut: ст. Тамань, ул. Кирова, 44
 cityIn: ФСК
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?aTja829XbGk3WKJNd_ZKthxoogPWsKSymZgCt7HD8Ds
 
 num: 75131
 date: 09.08.2019
 cityOut: ФСК
 cityIn: ст. Тамань, ул. Кирова, 44
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?3RmjgR13nqcW87qBO7KtNRg3wGW6syxgE34GPFrjJXU
 
 num: 75133
 date: 09.08.2019
 cityOut: Стоянка ПИ
 cityIn: МЖУ-ПИ-МЖУ-ПИ-п. Ильич Ленина 41
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?u9O_PRJT0O5T9N9WcDW9Q2RJk9nZxn7sZ8xpwBVikuM
 
 num: 75134
 date: 09.08.2019
 cityOut: ст. Тбилисская ООО "Кубанские масла"
 cityIn: г. Анапа, ул. Парковая, 64 А, корпус 8
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?Oy_LvmHC8uw7fW2a7wkdWclMFQRTOB2ViTjDS3cwe_o
 
 num: 75135
 date: 09.08.2019
 cityOut: ООО"Пищевые Ингредиенты"
 cityIn: Прогресс,Тамань,Волна-Таманский,Завод
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?ZdV21AiF7BCqjq3dmgF-Aw3mo-N0JcuQ0Cf2hhvtdG8
 
 num: 75138
 date: 09.08.2019
 cityOut: ООО "ТЗПМ"
 cityIn: Волна, Тамань, ООО "ТЗПМ"
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?6qFlF_jrFg0QvEjvKMjrQjgKZ0u9y0-cvLx6uFAtzRk
 
 num: 75139
 date: 09.08.2019
 cityOut: г.Темрюк, ул.Краснодарская, 38
 cityIn: Завод, - Тамань, - Темрюк, - Завод, - Темрюк
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?0u_TwxlD8ftlgb2yCbCemdP2Z68WMnvUrAmOxZKr8Qw
 
 num: 75140
 date: 09.08.2019
 cityOut: ст. Тамань, гостиница Бланко
 cityIn: "ПИ"-Тамань
-urlBet10: http://fake.ru
+urlBet10: http://taman.trans.efko.ru/bet.php?VTNV5knr98Rtxj92w787MtY8UJSR4-_cJA3QmlgdnDg
 
