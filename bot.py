@@ -22,6 +22,7 @@ def command_handler(message):
 
     markup.add(edit_city, bet, what)
 
+    bdworker.set_state(message.chat.id, config.States.S_START.value)
     bot.send_message(message.chat.id, 'Выбери функцию ⬇️', reply_markup=markup)
 
 
@@ -90,9 +91,8 @@ def echo_edit(message):
         f.write(message.text)
         f.close()
     bot.send_message(message.chat.id, 'Запомнил: <b>' + message.text + '</b>', parse_mode='HTML')
-    command_handler(message)
     bdworker.set_state(message.chat.id, config.States.S_START.value)
-
+    command_handler(message)
 
 
 def main():
