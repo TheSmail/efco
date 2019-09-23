@@ -25,6 +25,10 @@ def command_handler(message):
     bdworker.set_state(message.chat.id, config.States.S_START.value)
     bot.send_message(message.chat.id, 'Выбери функцию ⬇️', reply_markup=markup)
 
+@bot.message_handler(commands=['help'])
+def echo_help(message):
+    msg = '<b>Помощь по ЭФКА-бот:</b>\n✅️Список городов - раздел для изменения списка городов\n✅️Кол-во заявок - раздел для изменения количества заявок которые будут взяты\n✅Что взял? - раздел позволяющий увидеть какие заявки успешно взяты (обновляется после 15:30)\n\n❗️Если бот не отвечает попробуй его перезагрузить командой /start'
+    bot.send_message(message.chat.id, msg, parse_mode='HTML')
 
 @bot.message_handler(regexp="Что взял?")
 @bot.edited_message_handler(regexp="Что взял?")
