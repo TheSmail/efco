@@ -49,16 +49,18 @@ def echo_bet(message):
     two = types.KeyboardButton('2')
     three = types.KeyboardButton('3')
     four = types.KeyboardButton('4')
+    no = types.KeyboardButton('Не брать')
     exit = types.KeyboardButton('Назад')
 
-    markup.add(one, two, three, four, exit)
+    markup.add(one, two, three, four, no, exit)
 
     f = open('config/bet_num.txt', 'r')
     msg = f.read()
     f.close()
 
     bot.send_message(message.chat.id, 'Выбери сколько заявок брать ⬇️ (только кнопками снизу)', parse_mode='HTML', reply_markup=markup)
-    bot.send_message(message.chat.id, 'Текущее кол-во заявок: <b>' + msg + '</b>', parse_mode='HTML')
+    if msg != '0':
+        bot.send_message(message.chat.id, 'Текущее кол-во заявок: <b>' + msg + '</b>', parse_mode='HTML')
 
     @bot.message_handler(regexp="1")
     @bot.message_handler(regexp="2")
@@ -70,6 +72,15 @@ def echo_bet(message):
         f.close()
 
         bot.send_message(message.chat.id, 'Новое кол-во заявок: <b>' + message.text + '</b>. Постараюсь взять, если столько будет', parse_mode='HTML')
+        command_handler(message)
+
+    @bot.message_handler(regexp="Не брать")
+    def echo_bet_num_null(message):
+        f = open('config/bet_num.txt', 'w')
+        f.write('0')
+        f.close()
+
+        bot.send_message(message.chat.id, 'Ок, не буду брать заявки, пока ты не напишешь новое кол-во заявок', parse_mode='HTML')
         command_handler(message)
 
 @bot.message_handler(regexp="Список городов")
