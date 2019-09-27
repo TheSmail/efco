@@ -51,6 +51,7 @@ def parser():
         betTask = None
 
     count = 0
+    msg = ''
 
     f = open(os.path.join(script_dir, 'config/city.txt'), 'r')
     city = f.read().split(', ')
@@ -81,6 +82,12 @@ def parser():
             f.write("{0}: {1}".format(key, value) + "\n")
         f.write("\n")
     f.close()
+
+    if msg == '':
+        f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
+        f.write('Ни одного города из списка не было найдено')
+        f.close()
+
 
 def main():
     parser()

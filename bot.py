@@ -109,6 +109,13 @@ def echo_edit(message):
     bdworker.set_state(message.chat.id, config.States.S_START.value)
     command_handler(message)
 
+@bot.message_handler(regexp="Logs")
+def echo_bet_num_null(message):
+    f = open('logs/log_bet.txt', 'rb')
+
+    bot.send_document(message.chat.id, f)
+    f.close()
+    command_handler(message)
 
 def main():
     bot.polling(none_stop=True)
