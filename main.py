@@ -59,9 +59,9 @@ def parser():
 
     for j in range(len(city)):
         cityRe = r"%s\b" % city[j]
-        if count < config.sumBet:
-            for i in range(len(betTask)):
-                if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city[j]]):
+        for i in range(len(betTask)):
+            if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city[j]]):
+                if count < config.sumBet:
                     urlBet = str(betTask[i].get('urlBet10'))
                     session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
@@ -72,7 +72,6 @@ def parser():
                     f.close()
 
                     count += 1
-                    break
 
 
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
@@ -83,11 +82,6 @@ def parser():
             f.write("{0}: {1}".format(key, value) + "\n")
         f.write("\n")
     f.close()
-
-    # if msg == '':
-    #     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
-    #     f.write('Ни одного города из списка не было найдено')
-    #     f.close()
 
 
 def main():
