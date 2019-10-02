@@ -51,7 +51,6 @@ def parser():
         betTask = None
 
     count = 0
-    msg = ''
 
     f = open(os.path.join(script_dir, 'config/city.txt'), 'r')
     city = f.read().split(', ')
