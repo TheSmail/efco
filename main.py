@@ -15,7 +15,7 @@ def parser():
     f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
     f.close()
 
-    url = "http://y91805lt.beget.tech"
+    #url = "http://y91805lt.beget.tech"
     url = "http://taman.trans.efko.ru/trade/2"
     urlAuth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
