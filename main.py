@@ -15,15 +15,15 @@ def parser():
     f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
     f.close()
 
-    #url = "http://y91805lt.beget.tech"
-    url = "http://taman.trans.efko.ru/trade/2"
+    url = "http://y91805lt.beget.tech"
+    #url = "http://taman.trans.efko.ru/trade/2"
     urlAuth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
     urlBet = "http://taman.trans.efko.ru"
 
     betTask = []
 
-    session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    #session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
     html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
     soup = BeautifulSoup(html.content, 'lxml')
@@ -62,7 +62,7 @@ def parser():
             if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city[j]]):
                 if count < config.sumBet:
                     urlBet = str(betTask[i].get('urlBet10'))
-                    session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+                    #session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
                     msg = 'Номер заявки: <b>' + betTask[i].get('num') + '</b>\nДата: ' + betTask[i].get('date') + '\nИз: ' + betTask[i].get('cityOut') + '\nВ: ' + betTask[i].get('cityIn') + '\n\n'
 
