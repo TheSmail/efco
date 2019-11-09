@@ -1,234 +1,198 @@
-num: 74726
-date: 09.08.2019
-cityOut: КПП-2
-cityIn: Учебный корпус - Завод
-urlBet10: http://taman.trans.efko.ru/bet.php?RYpQ9ltNQwdmvrEQy4QKTN4a-FwrahKwtE6gcHr02So
+num: 80515
+date: 01.11.2019
+cityOut: Краснодар
+cityIn: п.Сенной ул Мира д.94
+urlBet10: http://taman.trans.efko.ru/bet.php?Vuvp3OujKIfaozGWGGT5NGezSYyEsSrcfvbwLRTU0ow
 
-num: 74882
-date: 09.08.2019
-cityOut: КПП №2 ООО "ПИ" (17 человек)
-cityIn: Учебный корпус (обратно в 15:30)
-urlBet10: http://taman.trans.efko.ru/bet.php?M9tqaU_MbCgvRX_6L_qZGordKQUw_4TwvMWOMiSQPRc
+num: 80531
+date: 01.11.2019
+cityOut: п.Сенной ул.Мира д.94
+cityIn: ООО"ПИ"
+urlBet10: http://taman.trans.efko.ru/bet.php?dem9j6f5rXzMOX5Cv3uo0NMiNQOAjkGOefnnb1XYLR4
 
-num: 74888
-date: 09.08.2019
-cityOut: кпп2
-cityIn: ст. Тамань - кпп2
-urlBet10: http://taman.trans.efko.ru/bet.php?kiJs0H5HKnw3Ii3QP7rNnDWNYO1l2_A8J11DXTYnpRI
+num: 80646
+date: 01.11.2019
+cityOut: ст Тамань г-ца Бланко
+cityIn: ООО ТЗПМ, п. Волна, ст Тамань г-ца Бланко
+urlBet10: http://taman.trans.efko.ru/bet.php?LQsYCBjYW6wfR7g_RO1RQjEt-yUsysUYyMxtDZd_1wE
 
-num: 75010
-date: 09.08.2019
-cityOut: п.Волна ул.Победы д.3
-cityIn: Гостиница "Бланко"
-urlBet10: http://taman.trans.efko.ru/bet.php?u9mlC5VWwjhHFUa8GTMwya_hMkApp1Ok2gQeCsT0WEQ
+num: 80748
+date: 01.11.2019
+cityOut: РП7
+cityIn: РП7
+urlBet10: http://taman.trans.efko.ru/bet.php?irHp8dLufBXIYr4lmGmc_EDe5ygsvHK5gvYA_aBN_1Y
 
-num: 75011
-date: 09.08.2019
-cityOut: Гостиница "Бланко"
-cityIn: п.Волна ул.Победы д.3
-urlBet10: http://taman.trans.efko.ru/bet.php?MVHavkZGV_WJekwZYViycRFK4SDunCcA6tAib_36KJ4
+num: 80749
+date: 01.11.2019
+cityOut: РП7
+cityIn: РП7
+urlBet10: http://taman.trans.efko.ru/bet.php?DXo4_GoVyRH_KNREkK77AMPf8LxWfqtm-83d59Mamlg
 
-num: 75012
-date: 09.08.2019
-cityOut: п.Таманский ул.Виноградная 19, перекресток Тамань-Прогресс
-cityIn: Гостиница "Бланко"
-urlBet10: http://taman.trans.efko.ru/bet.php?UpIzTaesGznvBP-JATDoL-C1slCEwkW57eVx9hipuNo
-
-num: 75013
-date: 09.08.2019
-cityOut: Гостиница "Бланко"
-cityIn: КПП2, п.Таманский ул.Виноградная д.19
-urlBet10: http://taman.trans.efko.ru/bet.php?zE730CAIkurGUv_VwRJZ3-Ng_NBxKalx9m-c1PMNoh0
-
-num: 75047
-date: 09.08.2019
-cityOut: ТЗПМ
-cityIn: ж/д вокзал Анапа
-urlBet10: http://taman.trans.efko.ru/bet.php?AmoXO4UoXwL3f93XQSM9sdvaA0Dbkrw4laGjm13imPc
-
-num: 75056
-date: 09.08.2019
-cityOut: г. Анапа, ул.Владимирская 148
-cityIn: тзпм-г. Анапа, ул.Владимирская 148
-urlBet10: http://taman.trans.efko.ru/bet.php?MOJvOJX-U3gc8ZaOBN-v3NnLO0IlZmEddJ13qJjvq6E
-
-num: 75079
-date: 09.08.2019
-cityOut: г. Краснодар, ул. Пер 7
-cityIn: ООО ТЗПМ, ст Тамань г-ца Бланко
-urlBet10: http://taman.trans.efko.ru/bet.php?r-q8hKsjn6a8kyf1punpssYLOidANMk_18JWObzqzL4
-
-num: 75084
-date: 09.08.2019
-cityOut: стоянка пи
-cityIn: стоянка черноморка-мжу сенной-энергосбыт темрюк-стоянка пи-ст.Старотитаровская
-urlBet10: http://taman.trans.efko.ru/bet.php?jiqrNV65k0B5SLDspY3wMuB40jjDZQGOS-pb-W63vic
-
-num: 75087
-date: 09.08.2019
+num: 80788
+date: 01.11.2019
 cityOut: ООО ПИ
 cityIn: Склад Тамань
-urlBet10: http://taman.trans.efko.ru/bet.php?oYfx_dbei-b9AffWtMHFPVGF11ovK69483xkesFKZRA
+urlBet10: http://taman.trans.efko.ru/bet.php?2lYC4FpdPh0p-3p3Zz6qsWL3FzlRKNYTj9gIZm05BH0
 
-num: 75089
-date: 09.08.2019
-cityOut: ООО "ПИ"
-cityIn: ВРСП "Черноморка", МЖУ "Сенной", Тамань, Веселовка, ООО "ПИ"
-urlBet10: http://taman.trans.efko.ru/bet.php?pq_dQ2UoXe6gEUfjoOHFk4rQrhBEaigdBnbjDJhHyeg
-
-num: 75090
-date: 09.08.2019
+num: 80789
+date: 01.11.2019
 cityOut: Склад Тамань
 cityIn: ООО ПИ
-urlBet10: http://taman.trans.efko.ru/bet.php?lXNXZCxNJVSCL7-nocPmN88ACAJCcxkR1eU1uuKApS8
+urlBet10: http://taman.trans.efko.ru/bet.php?_G0XvyXJ69-EHSmGk7U_kRxDXfv7kOSexMK8C51nPeQ
 
-num: 75092
-date: 09.08.2019
-cityOut: cт.Тамань Бланко
-cityIn: завод
-urlBet10: http://taman.trans.efko.ru/bet.php?r9uNOxc6qOH2H0MwX8efwR5Xw2ZeWBW8gVd8S_pUV2c
+num: 80827
+date: 01.11.2019
+cityOut: ООО"ТЗПМ"
+cityIn: ВСРП Черноморка МЖУ Сенной Тамань
+urlBet10: http://taman.trans.efko.ru/bet.php?tVz_s-Z2AIVPEmSkReZO3EoLESy20gYIV_T0UNmAhBg
 
-num: 75093
-date: 09.08.2019
-cityOut: завод
-cityIn: ст.Тамань Бланко
-urlBet10: http://taman.trans.efko.ru/bet.php?aaHO2KDhR0sEXh-3Z4Dt3dROoc0Pb6E6w5gAI2ltqS8
-
-num: 75095
-date: 09.08.2019
-cityOut: п Сенной - Темрюк, Горького 51
-cityIn: Краснодар, Чехова 17, Ковтюха 108, Бабушкина 37
-urlBet10: http://taman.trans.efko.ru/bet.php?EYMHSj0mccvfDnz9ZUWsJR4e2jxStDHsupo1WdcqQ_Q
-
-num: 75097
-date: 09.08.2019
-cityOut: ст.Тамань, ул.Мира, д.7, п.Сенной МЖУ, завод, п.Прогресс, ул.Степная, д.6,ст.Вышестеблиевская, ул.Ленина, маг.Долина
-cityIn: х.Белый, ул.Полевая, 21, завод, п.Сенной МЖУ, ст.Тамань, ул.Мира,д7
-urlBet10: http://taman.trans.efko.ru/bet.php?SYEBOi7XMhH_OlAW5P5CBJ7GZlL4p5sPf-STS2EzvNo
-
-num: 75098
-date: 09.08.2019
-cityOut: РП 7
-cityIn: РП 7
-urlBet10: http://taman.trans.efko.ru/bet.php?uEY567Ss4YgdlblH54JC4cIHpU8HOop9uymARqsCx20
-
-num: 75099
-date: 09.08.2019
-cityOut: РП 7
-cityIn: РП 7
-urlBet10: http://taman.trans.efko.ru/bet.php?LC_-MNJkeF9mdkmg3x0HpiMhF_8ppaQrwenBKhSGJS0
-
-num: 75100
-date: 09.08.2019
+num: 80833
+date: 01.11.2019
 cityOut: ООО"ПИ"
-cityIn: гостиница Бланко-ООО"ПИ"
-urlBet10: http://taman.trans.efko.ru/bet.php?0N8dnJHQmN7LAFDo32i45K8hrCcupQexLIuC3AXkxak
+cityIn: п.Таманский ул.Черноморская д.3
+urlBet10: http://taman.trans.efko.ru/bet.php?baw8n7vAbI_g-N8MmZZ23H_KMPdETk2UaMH_czyuvQQ
 
-num: 75103
-date: 09.08.2019
-cityOut: Г Анапа
-cityIn: ООО ПИ
-urlBet10: http://taman.trans.efko.ru/bet.php?r6VNAbfXTcCvK4t4SqCuS_j7R59561WcbKxdP5iCS7U
+num: 80834
+date: 01.11.2019
+cityOut: ООО"ПИ"
+cityIn: п.Джигинка ул.Солнечная д.34
+urlBet10: http://taman.trans.efko.ru/bet.php?-m6LGfa_9sdy_MdQIDI7-eCOiTsLIY7JteNRucJY7JY
 
-num: 75106
-date: 09.08.2019
-cityOut: ООО ПИ
-cityIn: ст.Старотитаровская-г.Темрюк-Завод
-urlBet10: http://taman.trans.efko.ru/bet.php?EbLI4azSMpgy_BA-qPMfpGksBUDMmWTaiXCHVnXhf0Q
+num: 80835
+date: 01.11.2019
+cityOut: ТЗПМ
+cityIn: ТЗПМ-ск.Сенной-ТЗПМ
+urlBet10: http://taman.trans.efko.ru/bet.php?TAs1dEHR2B5vREOXUpDXEz0YhKDPcO6t5KIyot1fyN0
 
-num: 75107
-date: 09.08.2019
-cityOut: ООО "ТЗПМ"
-cityIn: склад Сенной, ООО "ТЗПМ"
-urlBet10: http://taman.trans.efko.ru/bet.php?y4d_mwKEAVNFS5176jiY9zTcsT8b-tvaV8oLsSkih0M
+num: 80843
+date: 01.11.2019
+cityOut: ПИ
+cityIn: Темрюк, МЖУСенной, стоянка Черноморка, ПИ
+urlBet10: http://taman.trans.efko.ru/bet.php?CPzg7Ltnkae0kLdWPGOijjAgDLD-HhFl3WLprX1hCPc
 
-num: 75111
-date: 09.08.2019
-cityOut: ООО "ТЗПМ"
-cityIn: г. Славянск-на-Кубани
-urlBet10: http://taman.trans.efko.ru/bet.php?IByHzFKHiXQ9uALImDSnreEvHt1ieXmF2uAOvfNxBLk
-
-num: 75119
-date: 09.08.2019
-cityOut: ООО ПИ
-cityIn: Сенной ООО ПИ
-urlBet10: http://taman.trans.efko.ru/bet.php?d7SXSixchM-ETHmO1yjgeagjhUigvX7e4Ce95e7_akE
-
-num: 75120
-date: 09.08.2019
-cityOut: ООО "ПИ" КПП №2
-cityIn: г.Темрюк ул. Карла Либнехта 5
-urlBet10: http://taman.trans.efko.ru/bet.php?uQS2GQfNuFbyPAIGG5N1ws0SxoyIZtqUS_RzDpfr10g
-
-num: 75122
-date: 09.08.2019
+num: 80852
+date: 01.11.2019
 cityOut: КПП Сенная
 cityIn: г.Темрюк
-urlBet10: http://taman.trans.efko.ru/bet.php?H0i5gYRH6rz_HLwM-LUNpjmdrFBYFl5Kb01GBtDER1k
+urlBet10: http://taman.trans.efko.ru/bet.php?7NpvcDLwD6PQCDG4qG1Dr5Zsen5m3eI9GN7BcAgHwYM
 
-num: 75123
-date: 09.08.2019
-cityOut: Краснодарский край, Ж/Д Крымская
-cityIn: Краснодарский край, ст. Тамань, гос-ца "Александрия"
-urlBet10: http://taman.trans.efko.ru/bet.php?szAxcOGs7_NQdamwrOfQV7r3tg35iCNV4XBSAmNI6yU
+num: 80855
+date: 01.11.2019
+cityOut: ст. Вышестеблиевская ул. Комсомольская, 8А, ст. Тамань ул. Мира,7, Сенной (МЖУ), завод, п. Прогресс ул. Степная д.6, ст. Вышестеблиевская пер. Вокзальный, 12
+cityIn: Сенной (МЖУ), х. Белый  ул. Полевая, 21, завод, ст. Старотитаровская пер. Красноармейский, 23А, ст. Тамань ул. Мира,7, ст. Вышестеблиевская ул. Комсомольская, 8А
+urlBet10: http://taman.trans.efko.ru/bet.php?XkGoEJEYNityWxAk65L1xMh9yKfofqg2UwIQ6ZvFDnU
 
-num: 75124
-date: 09.08.2019
+num: 80858
+date: 01.11.2019
+cityOut: КПП Сенная
+cityIn: ст Тамань и обратно ПП Сенная
+urlBet10: http://taman.trans.efko.ru/bet.php?rAWHAI816u9cGjsmjrrNJ3heR7-3lavYRxjhvqBFrC0
+
+num: 80866
+date: 01.11.2019
+cityOut: завод
+cityIn: г.Темрюк (офис, бакн, ИФНС)-ст. Тамань ул. Пролетарская 52
+urlBet10: http://taman.trans.efko.ru/bet.php?6o2xNF_k6pb2sY5NPoBYPm7khz7s-WPWIHlSSZlz3B0
+
+num: 80868
+date: 01.11.2019
+cityOut: Волна Победы 3
+cityIn: гостиница "Бланко"
+urlBet10: http://taman.trans.efko.ru/bet.php?mwEBg0a_aAOGicdAjD85KkaSEzmYxeIoooACeC5qFJM
+
+num: 80870
+date: 01.11.2019
+cityOut: Автостоянка ТЗПМ
+cityIn: жд вокзал Анапа - ст. Тамань пер. Гаражный 15
+urlBet10: http://taman.trans.efko.ru/bet.php?SJFbS-iLqRW3MgDmuMybNOxSXJX8KfAJYhbYqRLdG70
+
+num: 80871
+date: 01.11.2019
+cityOut: завод
+cityIn: г.Анапа ул Парковая 84-завод
+urlBet10: http://taman.trans.efko.ru/bet.php?GbIXJMWMbbdOwOUJz1FuzVyzm9dT0zDvSSzso8VezxU
+
+num: 80872
+date: 01.11.2019
+cityOut: cт.Тамань Бланко
+cityIn: завод
+urlBet10: http://taman.trans.efko.ru/bet.php?CfRmEQTsc_GbMArzrNp-0v1FhCDiwRY6UHNNS8kM9DE
+
+num: 80875
+date: 01.11.2019
 cityOut: гостиница "Бланко"
-cityIn: завод- гостиница
-urlBet10: http://taman.trans.efko.ru/bet.php?egklUFZ-DV0FqgDMMbn1jva-VKZiKSribt_lqTZLDHI
+cityIn: Волна Победы 3
+urlBet10: http://taman.trans.efko.ru/bet.php?4Sdsh-cYxkR4zlRyGR_XuaMBG_fZ4lIkbReaRj8_oFw
 
-num: 75126
-date: 09.08.2019
-cityOut: ООО"ПИ"
-cityIn: поселок Сенной ул.Мира д.94
-urlBet10: http://taman.trans.efko.ru/bet.php?iv0vSYABsn6R5knTiD8D6idpdn7B-ufanlMFzuTeEqE
+num: 80876
+date: 01.11.2019
+cityOut: завод
+cityIn: ст.Тамань Бланко
+urlBet10: http://taman.trans.efko.ru/bet.php?BZxBefrOhwSdOVWLCgGiPf7jS3r4Z8cOCMU8Rr0Wc40
 
-num: 75130
-date: 09.08.2019
-cityOut: ст. Тамань, ул. Кирова, 44
-cityIn: ФСК
-urlBet10: http://taman.trans.efko.ru/bet.php?aTja829XbGk3WKJNd_ZKthxoogPWsKSymZgCt7HD8Ds
+num: 80881
+date: 01.11.2019
+cityOut: гостиница "Бланко"
+cityIn: Старотитаровская 2 подъем,Темрюк Розы Люксембург 23, Шевченко 92 Анджиевского 1а- гостиница
+urlBet10: http://taman.trans.efko.ru/bet.php?31d5iuQzLiO6j4vtD2nu2eBCAZAHKXbyfJBGcY06dE8
 
-num: 75131
-date: 09.08.2019
-cityOut: ФСК
-cityIn: ст. Тамань, ул. Кирова, 44
-urlBet10: http://taman.trans.efko.ru/bet.php?3RmjgR13nqcW87qBO7KtNRg3wGW6syxgE34GPFrjJXU
+num: 80884
+date: 01.11.2019
+cityOut: Виноградный Садовая 6,перекресток Прогресс-Тамань, Таманский Виноградная 19
+cityIn: гостиница "Бланко"
+urlBet10: http://taman.trans.efko.ru/bet.php?PGWv6yNNcpAN3WHeDpGFskXdPXDQCiep9qFvEC8YrFQ
 
-num: 75133
-date: 09.08.2019
+num: 80886
+date: 01.11.2019
+cityOut: гостиница "Бланко"
+cityIn: КПП 2, Таманский Виноградная 19, Виноградный Садовая 6
+urlBet10: http://taman.trans.efko.ru/bet.php?yvjfzA38_vZWZHhWeNOtuUT2r0ccSeTbgmSVioMaWEQ
+
+num: 80892
+date: 01.11.2019
+cityOut: п.Таманский, ул.Крымская, д. 4
+cityIn: Завод, - Тамань, - Темрюк, - Завод
+urlBet10: http://taman.trans.efko.ru/bet.php?VZgHhxR2jKGU6mhEdd0Vmg9oMEvnPz0HHUJW9T-VgVc
+
+num: 80893
+date: 01.11.2019
+cityOut: КПП2 ПП Тамань
+cityIn: Тамань, ул.Некрасова,5 - КПП2 ПП Тамань
+urlBet10: http://taman.trans.efko.ru/bet.php?xIid7KvhGnl72bLCSzN2itgl5YRDi3q0C9n3272vQKU
+
+num: 80902
+date: 31.10.2019
+cityOut: п.Кучугуры, ул.Краснофлотская, 17
+cityIn: г. Краснодар, аэропорт
+urlBet10: http://taman.trans.efko.ru/bet.php?bfDZf8xNqdqv_zag4Xup6U75zoY6nuG38Rixrs-7iTI
+
+num: 80910
+date: 01.11.2019
 cityOut: Стоянка ПИ
-cityIn: МЖУ-ПИ-МЖУ-ПИ-п. Ильич Ленина 41
-urlBet10: http://taman.trans.efko.ru/bet.php?u9O_PRJT0O5T9N9WcDW9Q2RJk9nZxn7sZ8xpwBVikuM
+cityIn: МЖУ-Стоянка ПИ-МЖУ-Стоянка ПИ-МЖУ-Стоянка ПИ-п.Ильич Ленина 41
+urlBet10: http://taman.trans.efko.ru/bet.php?JlF0x4gInr2NDjWY2DrPPrAkV1Heh6s7B9yXpcttHt0
 
-num: 75134
-date: 09.08.2019
-cityOut: ст. Тбилисская ООО "Кубанские масла"
-cityIn: г. Анапа, ул. Парковая, 64 А, корпус 8
-urlBet10: http://taman.trans.efko.ru/bet.php?Oy_LvmHC8uw7fW2a7wkdWclMFQRTOB2ViTjDS3cwe_o
+num: 80911
+date: 01.11.2019
+cityOut: п. Сенной, автобусная ост. магазин "Ника"
+cityIn: КПП № 2
+urlBet10: http://taman.trans.efko.ru/bet.php?2Pvu1nfL15hDQ58GQOV4fCGFVk6T6BcIQ3D5q8vy0_Y
 
-num: 75135
-date: 09.08.2019
-cityOut: ООО"Пищевые Ингредиенты"
-cityIn: Прогресс,Тамань,Волна-Таманский,Завод
-urlBet10: http://taman.trans.efko.ru/bet.php?ZdV21AiF7BCqjq3dmgF-Aw3mo-N0JcuQ0Cf2hhvtdG8
+num: 80912
+date: 01.11.2019
+cityOut: Темрюк, Набережная, 4
+cityIn: п. Сенной МЖУ - завод
+urlBet10: http://taman.trans.efko.ru/bet.php?9YfdGsYibcVGrG9Jf8XwanzAYpItYNPQY5ICLYsS1BI
 
-num: 75138
-date: 09.08.2019
-cityOut: ООО "ТЗПМ"
-cityIn: Волна, Тамань, ООО "ТЗПМ"
-urlBet10: http://taman.trans.efko.ru/bet.php?6qFlF_jrFg0QvEjvKMjrQjgKZ0u9y0-cvLx6uFAtzRk
+num: 80915
+date: 01.11.2019
+cityOut: КПП № 2
+cityIn: Учебный корпус
+urlBet10: http://taman.trans.efko.ru/bet.php?zySihBYjZjuQrj4CnECrYjQbWNtxOl__7BdUP458Nts
 
-num: 75139
-date: 09.08.2019
-cityOut: г.Темрюк, ул.Краснодарская, 38
-cityIn: Завод, - Тамань, - Темрюк, - Завод, - Темрюк
-urlBet10: http://taman.trans.efko.ru/bet.php?0u_TwxlD8ftlgb2yCbCemdP2Z68WMnvUrAmOxZKr8Qw
-
-num: 75140
-date: 09.08.2019
-cityOut: ст. Тамань, гостиница Бланко
-cityIn: "ПИ"-Тамань
-urlBet10: http://taman.trans.efko.ru/bet.php?VTNV5knr98Rtxj92w787MtY8UJSR4-_cJA3QmlgdnDg
+num: 80916
+date: 01.11.2019
+cityOut: МЖУ Сенной
+cityIn: Ст. Запорожская, ул. Ленина 16
+urlBet10: http://taman.trans.efko.ru/bet.php?ZohJrDsomnei1irIruCfOkMaERH_PL975h4fvPqWmAw
 
