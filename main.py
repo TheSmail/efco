@@ -4,15 +4,17 @@ from config import config
 import re
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-from datetime import datetime
+from datetime import datetime, time
+from time import sleep
 import os
+
 script_dir = os.path.dirname(__file__)
 
 session = requests.Session()
 
 def parser():
     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'w')
-    f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S') + '</b>\n\n')
+    f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S.%f')[:-3] + '</b>\n\n')
     f.close()
 
     #url = "http://y91805lt.beget.tech"
@@ -35,7 +37,7 @@ def parser():
 
             if config.price in btnBet.text:
                 btnBet = urlBet + btnBet.attrs['href']
-            else: btnBet = 'http://fake.ru'
+            else: continue
 
             betTask.append({
                 'num': cols[0].strong.text,
@@ -64,7 +66,7 @@ def parser():
                     urlBet = str(betTask[i].get('urlBet10'))
                     session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-                    msg = 'Номер заявки: <b>' + betTask[i].get('num') + '</b>\nДата: ' + betTask[i].get('date') + '\nИз: ' + betTask[i].get('cityOut') + '\nВ: ' + betTask[i].get('cityIn') + '\n\n'
+                    msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏰ ' + betTask[i].get('date') + '\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n\n'
 
                     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
                     f.write(msg)
@@ -82,8 +84,17 @@ def parser():
         f.write("\n")
     f.close()
 
+def act(x):
+    return x+10
+
+def wait_start(runTime, action):
+    startTime = time(*(map(int, runTime.split(':'))))
+    while startTime > datetime.today().time():
+        sleep(1)
+    return action
 
 def main():
+    wait_start('15:30', lambda: act(100))
     parser()
 
 if __name__ == '__main__':
