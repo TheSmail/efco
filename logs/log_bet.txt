@@ -1,198 +1,198 @@
 num: 80515
-date: 01.11.2019
-cityOut: Краснодар
-cityIn: п.Сенной ул Мира д.94
+phone: 89897714299
+cityOut: 01.11.2019 18:00 | Краснодар
+cityIn: 01.11.2019 19:00 | п.Сенной ул Мира д.94
 urlBet10: http://taman.trans.efko.ru/bet.php?Vuvp3OujKIfaozGWGGT5NGezSYyEsSrcfvbwLRTU0ow
 
 num: 80531
-date: 01.11.2019
-cityOut: п.Сенной ул.Мира д.94
-cityIn: ООО"ПИ"
+phone: 89897714299
+cityOut: 01.11.2019 06:00 | п.Сенной ул.Мира д.94
+cityIn: 01.11.2019 07:00 | ООО"ПИ"
 urlBet10: http://taman.trans.efko.ru/bet.php?dem9j6f5rXzMOX5Cv3uo0NMiNQOAjkGOefnnb1XYLR4
 
 num: 80646
-date: 01.11.2019
-cityOut: ст Тамань г-ца Бланко
-cityIn: ООО ТЗПМ, п. Волна, ст Тамань г-ца Бланко
+phone: 89803770752
+cityOut: 01.11.2019 08:00 | ст Тамань г-ца Бланко
+cityIn: 01.11.2019 18:00 | ООО ТЗПМ, п. Волна, ст Тамань г-ца Бланко
 urlBet10: http://taman.trans.efko.ru/bet.php?LQsYCBjYW6wfR7g_RO1RQjEt-yUsysUYyMxtDZd_1wE
 
 num: 80748
-date: 01.11.2019
-cityOut: РП7
-cityIn: РП7
+phone: 89183818101;89183671077;89180543179
+cityOut: 01.11.2019 08:00 | РП7
+cityIn: 01.11.2019 20:00 | РП7
 urlBet10: http://taman.trans.efko.ru/bet.php?irHp8dLufBXIYr4lmGmc_EDe5ygsvHK5gvYA_aBN_1Y
 
 num: 80749
-date: 01.11.2019
-cityOut: РП7
-cityIn: РП7
+phone: 89183818101;89183671077;89180543179
+cityOut: 01.11.2019 20:00 | РП7
+cityIn: 02.11.2019 08:00 | РП7
 urlBet10: http://taman.trans.efko.ru/bet.php?DXo4_GoVyRH_KNREkK77AMPf8LxWfqtm-83d59Mamlg
 
 num: 80788
-date: 01.11.2019
-cityOut: ООО ПИ
-cityIn: Склад Тамань
+phone: 89883393288,89284445148
+cityOut: 01.11.2019 13:00 | ООО ПИ
+cityIn: 01.11.2019 13:30 | Склад Тамань
 urlBet10: http://taman.trans.efko.ru/bet.php?2lYC4FpdPh0p-3p3Zz6qsWL3FzlRKNYTj9gIZm05BH0
 
 num: 80789
-date: 01.11.2019
-cityOut: Склад Тамань
-cityIn: ООО ПИ
+phone: 89883393288,89284445148
+cityOut: 01.11.2019 16:00 | Склад Тамань
+cityIn: 01.11.2019 16:30 | ООО ПИ
 urlBet10: http://taman.trans.efko.ru/bet.php?_G0XvyXJ69-EHSmGk7U_kRxDXfv7kOSexMK8C51nPeQ
 
 num: 80827
-date: 01.11.2019
-cityOut: ООО"ТЗПМ"
-cityIn: ВСРП Черноморка МЖУ Сенной Тамань
+phone: 89180670662
+cityOut: 01.11.2019 09:00 | ООО"ТЗПМ"
+cityIn: 01.11.2019 16:00 | ВСРП Черноморка МЖУ Сенной Тамань
 urlBet10: http://taman.trans.efko.ru/bet.php?tVz_s-Z2AIVPEmSkReZO3EoLESy20gYIV_T0UNmAhBg
 
 num: 80833
-date: 01.11.2019
-cityOut: ООО"ПИ"
-cityIn: п.Таманский ул.Черноморская д.3
+phone: 89183929525
+cityOut: 01.11.2019 13:00 | ООО"ПИ"
+cityIn: 13.40 | п.Таманский ул.Черноморская д.3
 urlBet10: http://taman.trans.efko.ru/bet.php?baw8n7vAbI_g-N8MmZZ23H_KMPdETk2UaMH_czyuvQQ
 
 num: 80834
-date: 01.11.2019
-cityOut: ООО"ПИ"
-cityIn: п.Джигинка ул.Солнечная д.34
+phone: 89186699901
+cityOut: 01.11.2019 19:00 | ООО"ПИ"
+cityIn: 01.11.2019 21:00 | п.Джигинка ул.Солнечная д.34
 urlBet10: http://taman.trans.efko.ru/bet.php?-m6LGfa_9sdy_MdQIDI7-eCOiTsLIY7JteNRucJY7JY
 
 num: 80835
-date: 01.11.2019
-cityOut: ТЗПМ
-cityIn: ТЗПМ-ск.Сенной-ТЗПМ
+phone: 89189867897
+cityOut: 01.11.2019 08:30 | ТЗПМ
+cityIn: 01.11.2019 17:00 | ТЗПМ-ск.Сенной-ТЗПМ
 urlBet10: http://taman.trans.efko.ru/bet.php?TAs1dEHR2B5vREOXUpDXEz0YhKDPcO6t5KIyot1fyN0
 
 num: 80843
-date: 01.11.2019
-cityOut: ПИ
-cityIn: Темрюк, МЖУСенной, стоянка Черноморка, ПИ
+phone: 89186361958
+cityOut: 01.11.2019 08:00 | ПИ
+cityIn: 01.11.2019 17:00 | Темрюк, МЖУСенной, стоянка Черноморка, ПИ
 urlBet10: http://taman.trans.efko.ru/bet.php?CPzg7Ltnkae0kLdWPGOijjAgDLD-HhFl3WLprX1hCPc
 
 num: 80852
-date: 01.11.2019
-cityOut: КПП Сенная
-cityIn: г.Темрюк
+phone: 89898572382
+cityOut: 01.11.2019 17:15 | КПП Сенная
+cityIn: 01.11.2019 19:00 | г.Темрюк
 urlBet10: http://taman.trans.efko.ru/bet.php?7NpvcDLwD6PQCDG4qG1Dr5Zsen5m3eI9GN7BcAgHwYM
 
 num: 80855
-date: 01.11.2019
-cityOut: ст. Вышестеблиевская ул. Комсомольская, 8А, ст. Тамань ул. Мира,7, Сенной (МЖУ), завод, п. Прогресс ул. Степная д.6, ст. Вышестеблиевская пер. Вокзальный, 12
-cityIn: Сенной (МЖУ), х. Белый  ул. Полевая, 21, завод, ст. Старотитаровская пер. Красноармейский, 23А, ст. Тамань ул. Мира,7, ст. Вышестеблиевская ул. Комсомольская, 8А
+phone: 89180629852
+cityOut: 01.11.2019 06:50 | ст. Вышестеблиевская ул. Комсомольская, 8А, ст. Тамань ул. Мира,7, Сенной (МЖУ), завод, п. Прогресс ул. Степная д.6, ст. Вышестеблиевская пер. Вокзальный, 12
+cityIn: 01.11.2019 21:30 | Сенной (МЖУ), х. Белый  ул. Полевая, 21, завод, ст. Старотитаровская пер. Красноармейский, 23А, ст. Тамань ул. Мира,7, ст. Вышестеблиевская ул. Комсомольская, 8А
 urlBet10: http://taman.trans.efko.ru/bet.php?XkGoEJEYNityWxAk65L1xMh9yKfofqg2UwIQ6ZvFDnU
 
 num: 80858
-date: 01.11.2019
-cityOut: КПП Сенная
-cityIn: ст Тамань и обратно ПП Сенная
+phone: 89883133343
+cityOut: 01.11.2019 08:30 | КПП Сенная
+cityIn: 01.11.2019 11:00 | ст Тамань и обратно ПП Сенная
 urlBet10: http://taman.trans.efko.ru/bet.php?rAWHAI816u9cGjsmjrrNJ3heR7-3lavYRxjhvqBFrC0
 
 num: 80866
-date: 01.11.2019
-cityOut: завод
-cityIn: г.Темрюк (офис, бакн, ИФНС)-ст. Тамань ул. Пролетарская 52
+phone: 89884615180
+cityOut: 01.11.2019 13:00 | завод
+cityIn: 01.11.2019 18:00 | г.Темрюк (офис, бакн, ИФНС)-ст. Тамань ул. Пролетарская 52
 urlBet10: http://taman.trans.efko.ru/bet.php?6o2xNF_k6pb2sY5NPoBYPm7khz7s-WPWIHlSSZlz3B0
 
 num: 80868
-date: 01.11.2019
-cityOut: Волна Победы 3
-cityIn: гостиница "Бланко"
+phone: 89186984212
+cityOut: 01.11.2019 05:00 | Волна Победы 3
+cityIn: 01.11.2019 06:00 | гостиница "Бланко"
 urlBet10: http://taman.trans.efko.ru/bet.php?mwEBg0a_aAOGicdAjD85KkaSEzmYxeIoooACeC5qFJM
 
 num: 80870
-date: 01.11.2019
-cityOut: Автостоянка ТЗПМ
-cityIn: жд вокзал Анапа - ст. Тамань пер. Гаражный 15
+phone: 89183609373
+cityOut: 01.11.2019 13:30 | Автостоянка ТЗПМ
+cityIn: 01.11.2019 17:00 | жд вокзал Анапа - ст. Тамань пер. Гаражный 15
 urlBet10: http://taman.trans.efko.ru/bet.php?SJFbS-iLqRW3MgDmuMybNOxSXJX8KfAJYhbYqRLdG70
 
 num: 80871
-date: 01.11.2019
-cityOut: завод
-cityIn: г.Анапа ул Парковая 84-завод
+phone: 89898137752
+cityOut: 01.11.2019 10:00 | завод
+cityIn: 01.11.2019 14:00 | г.Анапа ул Парковая 84-завод
 urlBet10: http://taman.trans.efko.ru/bet.php?GbIXJMWMbbdOwOUJz1FuzVyzm9dT0zDvSSzso8VezxU
 
 num: 80872
-date: 01.11.2019
-cityOut: cт.Тамань Бланко
-cityIn: завод
+phone: 89897705884
+cityOut: 01.11.2019 07:10 | cт.Тамань Бланко
+cityIn: 01.11.2019 08:00 | завод
 urlBet10: http://taman.trans.efko.ru/bet.php?CfRmEQTsc_GbMArzrNp-0v1FhCDiwRY6UHNNS8kM9DE
 
 num: 80875
-date: 01.11.2019
-cityOut: гостиница "Бланко"
-cityIn: Волна Победы 3
+phone: 89186984212
+cityOut: 01.11.2019 18:00 | гостиница "Бланко"
+cityIn: 01.11.2019 19:00 | Волна Победы 3
 urlBet10: http://taman.trans.efko.ru/bet.php?4Sdsh-cYxkR4zlRyGR_XuaMBG_fZ4lIkbReaRj8_oFw
 
 num: 80876
-date: 01.11.2019
-cityOut: завод
-cityIn: ст.Тамань Бланко
+phone: 89897705884
+cityOut: 01.11.2019 17:15 | завод
+cityIn: 01.11.2019 18:00 | ст.Тамань Бланко
 urlBet10: http://taman.trans.efko.ru/bet.php?BZxBefrOhwSdOVWLCgGiPf7jS3r4Z8cOCMU8Rr0Wc40
 
 num: 80881
-date: 01.11.2019
-cityOut: гостиница "Бланко"
-cityIn: Старотитаровская 2 подъем,Темрюк Розы Люксембург 23, Шевченко 92 Анджиевского 1а- гостиница
+phone: 89186984212
+cityOut: 01.11.2019 08:00 | гостиница "Бланко"
+cityIn: 01.11.2019 14:00 | Старотитаровская 2 подъем,Темрюк Розы Люксембург 23, Шевченко 92 Анджиевского 1а- гостиница
 urlBet10: http://taman.trans.efko.ru/bet.php?31d5iuQzLiO6j4vtD2nu2eBCAZAHKXbyfJBGcY06dE8
 
 num: 80884
-date: 01.11.2019
-cityOut: Виноградный Садовая 6,перекресток Прогресс-Тамань, Таманский Виноградная 19
-cityIn: гостиница "Бланко"
+phone: 89186984212
+cityOut: 01.11.2019 07:00 | Виноградный Садовая 6,перекресток Прогресс-Тамань, Таманский Виноградная 19
+cityIn: 01.11.2019 07:50 | гостиница "Бланко"
 urlBet10: http://taman.trans.efko.ru/bet.php?PGWv6yNNcpAN3WHeDpGFskXdPXDQCiep9qFvEC8YrFQ
 
 num: 80886
-date: 01.11.2019
-cityOut: гостиница "Бланко"
-cityIn: КПП 2, Таманский Виноградная 19, Виноградный Садовая 6
+phone: 89186984212
+cityOut: 01.11.2019 20:00 | гостиница "Бланко"
+cityIn: 01.11.2019 21:00 | КПП 2, Таманский Виноградная 19, Виноградный Садовая 6
 urlBet10: http://taman.trans.efko.ru/bet.php?yvjfzA38_vZWZHhWeNOtuUT2r0ccSeTbgmSVioMaWEQ
 
 num: 80892
-date: 01.11.2019
-cityOut: п.Таманский, ул.Крымская, д. 4
-cityIn: Завод, - Тамань, - Темрюк, - Завод
+phone: 89189582792
+cityOut: 01.11.2019 07:00 | п.Таманский, ул.Крымская, д. 4
+cityIn: 01.11.2019 18:00 | Завод, - Тамань, - Темрюк, - Завод
 urlBet10: http://taman.trans.efko.ru/bet.php?VZgHhxR2jKGU6mhEdd0Vmg9oMEvnPz0HHUJW9T-VgVc
 
 num: 80893
-date: 01.11.2019
-cityOut: КПП2 ПП Тамань
-cityIn: Тамань, ул.Некрасова,5 - КПП2 ПП Тамань
+phone: 89883489240
+cityOut: 01.11.2019 10:30 | КПП2 ПП Тамань
+cityIn: 01.11.2019 13:30 | Тамань, ул.Некрасова,5 - КПП2 ПП Тамань
 urlBet10: http://taman.trans.efko.ru/bet.php?xIid7KvhGnl72bLCSzN2itgl5YRDi3q0C9n3272vQKU
 
 num: 80902
-date: 31.10.2019
-cityOut: п.Кучугуры, ул.Краснофлотская, 17
-cityIn: г. Краснодар, аэропорт
+phone: 8-9884615178
+cityOut: 31.10.2019 22:00 | п.Кучугуры, ул.Краснофлотская, 17
+cityIn: 01.11.2019 04:00 | г. Краснодар, аэропорт
 urlBet10: http://taman.trans.efko.ru/bet.php?bfDZf8xNqdqv_zag4Xup6U75zoY6nuG38Rixrs-7iTI
 
 num: 80910
-date: 01.11.2019
-cityOut: Стоянка ПИ
-cityIn: МЖУ-Стоянка ПИ-МЖУ-Стоянка ПИ-МЖУ-Стоянка ПИ-п.Ильич Ленина 41
+phone: 89180603703
+cityOut: 01.11.2019 08:00 | Стоянка ПИ
+cityIn: 01.11.2019 19:00 | МЖУ-Стоянка ПИ-МЖУ-Стоянка ПИ-МЖУ-Стоянка ПИ-п.Ильич Ленина 41
 urlBet10: http://taman.trans.efko.ru/bet.php?JlF0x4gInr2NDjWY2DrPPrAkV1Heh6s7B9yXpcttHt0
 
 num: 80911
-date: 01.11.2019
-cityOut: п. Сенной, автобусная ост. магазин "Ника"
-cityIn: КПП № 2
+phone: 89184891326
+cityOut: 01.11.2019 09:40 | п. Сенной, автобусная ост. магазин "Ника"
+cityIn: 01.11.2019 10:30 | КПП № 2
 urlBet10: http://taman.trans.efko.ru/bet.php?2Pvu1nfL15hDQ58GQOV4fCGFVk6T6BcIQ3D5q8vy0_Y
 
 num: 80912
-date: 01.11.2019
-cityOut: Темрюк, Набережная, 4
-cityIn: п. Сенной МЖУ - завод
+phone: 89184858905
+cityOut: 01.11.2019 07:00 | Темрюк, Набережная, 4
+cityIn: 01.11.2019 10:00 | п. Сенной МЖУ - завод
 urlBet10: http://taman.trans.efko.ru/bet.php?9YfdGsYibcVGrG9Jf8XwanzAYpItYNPQY5ICLYsS1BI
 
 num: 80915
-date: 01.11.2019
-cityOut: КПП № 2
-cityIn: Учебный корпус
+phone: 89189878863
+cityOut: 01.11.2019 08:30 | КПП № 2
+cityIn: 01.11.2019 17:10 | Учебный корпус
 urlBet10: http://taman.trans.efko.ru/bet.php?zySihBYjZjuQrj4CnECrYjQbWNtxOl__7BdUP458Nts
 
 num: 80916
-date: 01.11.2019
-cityOut: МЖУ Сенной
-cityIn: Ст. Запорожская, ул. Ленина 16
+phone: 89186444103
+cityOut: 01.11.2019 17:00 | МЖУ Сенной
+cityIn: 01.11.2019 17:30 | Ст. Запорожская, ул. Ленина 16
 urlBet10: http://taman.trans.efko.ru/bet.php?ZohJrDsomnei1irIruCfOkMaERH_PL975h4fvPqWmAw
 

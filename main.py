@@ -14,18 +14,18 @@ session = requests.Session()
 
 def parser():
     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'w')
-    f.write('Взятые заявки на <b>\n' + datetime.today().strftime('%d.%m.%Y %H:%M:%S.%f')[:-3] + '</b>\n\n')
+    f.write('Взятые заявки на \n<b>' + datetime.today().strftime('%d.%m.%Y %H:%M:%S.%f')[:-3] + '</b>\n\n')
     f.close()
 
-    #url = "http://y91805lt.beget.tech"
-    url = "http://taman.trans.efko.ru/trade/2"
+    url = "http://y91805lt.beget.tech"
+    #url = "http://taman.trans.efko.ru/trade/2"
     urlAuth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
     urlBet = "http://taman.trans.efko.ru"
 
     betTask = []
 
-    session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    #session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
     html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
     soup = BeautifulSoup(html.content, 'lxml')
@@ -41,9 +41,9 @@ def parser():
 
             betTask.append({
                 'num': cols[0].strong.text,
-                'date': cols[9].strong.text,
-                'cityOut': cols[20].strong.text,
-                'cityIn': cols[24].strong.text,
+                'phone': cols[8].strong.text,
+                'cityOut': cols[9].strong.text + ' ' + cols[10].strong.text + ' | ' + cols[20].strong.text,
+                'cityIn': cols[11].strong.text + ' | ' + cols[24].strong.text,
                 'urlBet10': btnBet
             })
         print("Парсинг окончен\n")
@@ -64,9 +64,9 @@ def parser():
             if (re.findall(cityRe, str(betTask[i].get('cityOut'))) == [city[j]]) or (re.findall(cityRe, str(betTask[i].get('cityIn'))) == [city[j]]):
                 if count < config.sumBet:
                     urlBet = str(betTask[i].get('urlBet10'))
-                    session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+                    #session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-                    msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏰ ' + betTask[i].get('date') + '\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n\n'
+                    msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n☎️ ' + betTask[i].get('phone') + '\n\n'
 
                     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
                     f.write(msg)
