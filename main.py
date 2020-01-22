@@ -94,7 +94,7 @@ def wait_start(runTime, action):
     return action
 
 def main():
-    wait_start('15:30', lambda: act(100))
+    wait_start('15:30:00', lambda: act(100))
     parser()
 
 if __name__ == '__main__':
