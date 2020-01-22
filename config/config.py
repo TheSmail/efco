@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from enum import Enum
+#from enum import Enum
 import os
 script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
 
@@ -18,7 +18,7 @@ sumBet = int(f.read())
 f.close()#кол-во необходимых заявок
 
 price = '10'
-
-class States(Enum):
-    S_START = "0"  # Начало нового диалога
-    S_CITY = "1"
+#
+# class States(Enum):
+#     S_START = "0"  # Начало нового диалога
+#     S_CITY = "1"
