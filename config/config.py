@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#from enum import Enum
+from enum import Enum
 import os
 script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
 
