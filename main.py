@@ -14,8 +14,8 @@ session = requests.Session()
 
 def parser():
 
-    url = "http://y91805lt.beget.tech/2020.html"
-    #url = "http://taman.trans.efko.ru/trade/2"
+    #url = "http://y91805lt.beget.tech/2020.html"
+    url = "http://taman.trans.efko.ru/trade/2"
     urlAuth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
     urlBet = "http://taman.trans.efko.ru"
@@ -23,7 +23,7 @@ def parser():
     betTask = []
     i=0
 
-    #session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
     html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
     soup = BeautifulSoup(html.content, 'lxml')
