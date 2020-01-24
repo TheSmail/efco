@@ -38,6 +38,7 @@ def parser():
         cols = rows.find_all('td')
 
         links = rows.find_all('button', text=re.compile("10"), class_='newbet')
+        linlBet = None
         for link in links:
             linkBet = urlBet + link.get('href')
 
