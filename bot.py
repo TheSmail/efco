@@ -5,8 +5,9 @@ from telebot import types
 from config import config
 from config import bdworker
 
-#apihelper.proxy = {'https':'socks5://4009548:mYlbBtTn@orbtl.s5.opennetwork.cc:999'}
-apihelper.proxy = {'https':'socks5h://aTKWx66aHl:TLcSITj70x@172.96.139.225:29519'}
+#apihelper.proxy = {'https':'socks5h://4009548:mYlbBtTn@orbtl.s5.opennetwork.cc:999'}
+#apihelper.proxy = {'https':'socks5h://aTKWx66aHl:TLcSITj70x@172.96.139.225:29519'}
+apihelper.proxy = {'https':'socks5h://localhost:9050'}
 
 TOKEN = '983071785:AAE-4gKtJpp7PA1wLtcXUtdvUz9duTP1BnA'
 

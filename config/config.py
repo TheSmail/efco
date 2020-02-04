@@ -13,7 +13,7 @@ data = {'xLogin': 'evgen28rus@mail.ru', 'xPassword': 'had2911'}
 rel_path = "bet_num.txt"
 abs = os.path.join(script_dir, rel_path)
 
-f = open('config/bet_num.txt', 'r')
+f = open(os.path.join(script_dir, 'bet_num.txt'), 'r')
 sumBet = int(f.read())
 f.close()#кол-во необходимых заявок
 

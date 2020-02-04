@@ -32,7 +32,6 @@ def parser():
           html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
           soup = BeautifulSoup(html.content, 'lxml')
           i += 1
-          print(i)
 
     for rows in soup.find_all('tr')[1:]:
         cols = rows.find_all('td')
