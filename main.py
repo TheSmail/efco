@@ -50,7 +50,6 @@ def parser():
         })
         linkBet = urlBet
     print("Парсинг окончен\n")
-    print(betTask)
 
     count = 0
 
@@ -61,7 +60,7 @@ def parser():
     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'w')
     f.write('Взятые заявки на \n<b>' + datetime.today().strftime('%d.%m.%Y %H:%M:%S.%f')[:-3] + '</b>\n\n')
     f.close()
-    print(city)
+    
     for j in range(len(city)):
         cityRe = r"%s\b" % city[j]
         for i in range(len(betTask)):
