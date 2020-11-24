@@ -14,7 +14,7 @@ session = requests.Session()
 
 def parser():
 
-    #url = "http://y91805lt.beget.tech/2020.html"
+    #url = "http://y91805lt.beget.tech/index.html"
     url = "http://taman.trans.efko.ru/trade/2"
     urlAuth = "http://taman.trans.efko.ru/login.php"
     urlLogout = "http://taman.trans.efko.ru/logout.php"
@@ -37,15 +37,15 @@ def parser():
         cols = rows.find_all('td')
 
         links = rows.find_all('button', text=re.compile("10"), class_='newbet')
-        linlBet = None
+        linkBet = None
         for link in links:
             linkBet = urlBet + link.get('href')
+        print(linkBet)
 
         betTask.append({
             'num': cols[0].strong.text,
-            'phone': cols[8].strong.text,
-            'cityOut': cols[9].strong.text + ' ' + cols[10].strong.text + ' | ' + cols[20].strong.text,
-            'cityIn': cols[11].strong.text + ' | ' + cols[24].strong.text,
+            'cityOut': cols[6].strong.text + ' ' + cols[7].strong.text + ' | ' + cols[4].strong.text,
+            'cityIn': cols[8].strong.text + ' | ' + cols[3].strong.text,
             'urlBet10': linkBet
         })
         linkBet = urlBet
@@ -70,7 +70,7 @@ def parser():
 
                     session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-                    msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n☎️ ' + betTask[i].get('phone') + '\n\n'
+                    msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n\n'
 
                     f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
                     f.write(msg)
@@ -88,17 +88,17 @@ def parser():
         f.write("\n")
     f.close()
 
-# def act(x):
-#     return x+10
-#
-# def wait_start(runTime, action):
-#     startTime = time(*(map(int, runTime.split(':'))))
-#     while startTime > datetime.today().time():
-#         sleep(1)
-#     return action
+def act(x):
+    return x+10
+
+def wait_start(runTime, action):
+    startTime = time(*(map(int, runTime.split(':'))))
+    while startTime > datetime.today().time():
+        sleep(1)
+    return action
 
 def main():
-    #wait_start('15:30:00', lambda: act(100))
+    wait_start('15:00:00', lambda: act(100))
     parser()
 
 if __name__ == '__main__':
