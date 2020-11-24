@@ -1,5 +1,5 @@
-#Бот-система автоматической игры на торгах ЭФКО
-##Установка Tor для стабильной работы Бота
+# Бот-система автоматической игры на торгах ЭФКО
+## Установка Tor для стабильной работы Бота
 ```
 sudo apt-get install tor
 #необязательные пункты
@@ -7,7 +7,7 @@ sudo nano /etc/tor/torrc
 sudo systemctl restart tor@default.service
 ```
 
-##Подготовка скрипта
+## Подготовка скрипта
 Клонируем проект
 
 ```git clone git@github.com:TheSmail/efco.git```
@@ -25,7 +25,7 @@ sudo chown -R user:group efco
 pip3 install requirements.txt
 ```
 
-##Добавляем бота в systemd
+## Добавляем бота в systemd
 Проверяем файл bot_efco.service и можно добавлять
 ```
 sudo cp bot_efco.service /etc/systemd/system
@@ -33,7 +33,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable bot_efco
 sudo systemctl start bot_efco
 ```
-##Включаем крон
+## Включаем крон
 
 ```
 crontab -u USER -e
