@@ -5,9 +5,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=hoob
-WorkingDirectory=/home/hoob/efco
-ExecStart=/usr/bin/python3 /home/hoob/efco/bot.py
+User=hoob #юзера поменяй
+WorkingDirectory=/home/hoob/efco #и это
+ExecStart=/usr/bin/python3 /home/hoob/efco/bot.py #ну и тут
 RestartSec=10
 Restart=always
  
