@@ -5,7 +5,7 @@ import os
 script_dir = os.path.dirname(__file__) #absolute dir the script is in
 
 
-TOKEN = '983071785:AAE-4gKtJpp7PA1wLtcXUtdvUz9duTP1BnA'
+TOKEN = '983071785:AAHV7ven6wugduQadPRFwebp0nXH48FFD_w'
 db_file = "config/database.vdb"
 
 data = {'xLogin': 'evgen28rus@mail.ru', 'xPassword': 'had2911'}
