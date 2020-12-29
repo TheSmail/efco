@@ -38,9 +38,13 @@ def parser():
 
         links = rows.find_all('button', text=re.compile("10"), class_='newbet')
         linkBet = None
-        for link in links:
-            linkBet = urlBet + link.get('href')
-        print(linkBet)
+
+        if not links:
+            linkBet = 'http://ya.ru'
+        else:
+            for link in links:
+                linkBet = urlBet + link.get('href')
+        #print(linkBet)
 
         betTask.append({
             'num': cols[0].strong.text,
@@ -48,16 +52,16 @@ def parser():
             'cityIn': cols[8].strong.text + ' | ' + cols[3].strong.text,
             'urlBet10': linkBet
         })
-        linkBet = urlBet
-    print("Парсинг окончен\n")
+        #linkBet = urlBet
+    #print("Парсинг окончен\n")
 
     count = 0
 
-    f = open(os.path.join(script_dir, 'config/city.txt'), 'r')
+    f = open(os.path.join(script_dir, 'config/city.txt'), 'r', encoding='utf-8')
     city = f.read().split(', ')
     f.close()
 
-    f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'w')
+    f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'w', encoding='utf-8')
     f.write('Взятые заявки на \n<b>' + datetime.today().strftime('%d.%m.%Y %H:%M:%S.%f')[:-3] + '</b>\n\n')
     f.close()
     
@@ -72,7 +76,7 @@ def parser():
 
                     msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n\n'
 
-                    f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a')
+                    f = open(os.path.join(script_dir, 'logs/GOOD_bet.txt'), 'a', encoding='utf-8')
                     f.write(msg)
                     f.close()
 
@@ -81,7 +85,7 @@ def parser():
 
     session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-    f = open(os.path.join(script_dir, 'logs/log_bet.txt'), 'w')
+    f = open(os.path.join(script_dir, 'logs/log_bet.txt'), 'w', encoding='utf-8')
     for i in range(len(betTask)):
         for key, value in betTask[i].items():
             f.write("{0}: {1}".format(key, value) + "\n")
