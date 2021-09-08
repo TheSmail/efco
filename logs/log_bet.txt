@@ -1,210 +1,180 @@
-num: 108198
-cityOut: 23.12.2020 12:00 | ст. Тбилисская, ул. Элеваторная 7Г
-cityIn: 23.12.2020 19:00 | ст.Тамань,ул.Энгельса 77
-urlBet10: http://taman.trans.efko.ru/bet.php?Qe9-GmFwrcjfn4FJ17RN1PVA9mOJCaFKWqtghiIsi7U
+num: 126179
+cityOut: 09.09.2021 08:00 | ООО "ФСК", Тамань - обратно
+cityIn: 09.09.2021 20:00 | ООО "Пищевые Ингредиенты"
+urlBet10: https://taman.trans.efko.ru/bet.php?zDzYFLat50j96nJoKVoGgUu6AMDl3AT7AQRt5s132aQ
 
-num: 108364
-cityOut: 23.12.2020 06:00 | п.Сенной,ул.Мира 94
-cityIn: 23.12.2020 07:00 | ООО ПИ
-urlBet10: http://taman.trans.efko.ru/bet.php?ZnfN7cJdOllI_3HtlFUTHMd6Flbn-VZ_Ux4eW-UrIh0
+num: 127143
+cityOut: 09.09.2021 10:30 | ООО ПИ-гост Бланко
+cityIn: 09.09.2021 12:30 | Гост Бланко -ООО ПИ
+urlBet10: https://taman.trans.efko.ru/bet.php?rY_BDfxs7Kq1BVOGPXWIH1MvsxBQjSxOMr7qHfDuuH4
 
-num: 108367
-cityOut: 23.12.2020 08:00 | ООО ФСК-Тамань-обратно
-cityIn: 23.12.2020 20:00 | ООО Пищевые ингридиенты
-urlBet10: http://taman.trans.efko.ru/bet.php?r6C5ghcsEDePtJmUqftxZTM3v7FbabTVZiivTjhwSE8
+num: 127260
+cityOut: 09.09.2021 08:00 | РП-7
+cityIn: 09.09.2021 20:00 | РП-7
+urlBet10: https://taman.trans.efko.ru/bet.php?F-mkwNdrLORtoJgMABKOlRlUSYRMxAjW8aYGlfrOdhc
 
-num: 108420
-cityOut: 23.12.2020 13:00 | п. Чекон-ст. Вышестеблиевская, центр-п. Прогресс
-cityIn: 23.12.2020 15:00 | КПП 2
-urlBet10: http://taman.trans.efko.ru/bet.php?4gmPqLmoi9J31bOVBdzF_pTX0W-dcjIMUovxY2WSHJ0
+num: 127262
+cityOut: 09.09.2021 20:00 | РП-7
+cityIn: 10.09.2021 08:00 | РП-7
+urlBet10: https://taman.trans.efko.ru/bet.php?hjlQFVAqCV0WLh1M1f2J5T-m3f6qwvqssTpGCW0tfUw
 
-num: 108421
-cityOut: 23.12.2020 13:30 | п. Кучугуры, центр-п. Сенной, пятачок-ст. Тамань, Аморе
-cityIn: 23.12.2020 15:00 | КПП 2
-urlBet10: http://taman.trans.efko.ru/bet.php?4Sb_SVOdPC9o2DvyXgENrV_2BwdQ71KvS0eDNQe8BHI
+num: 127348
+cityOut: 09.09.2021 07:30 | станица Вышестеблиевская, дом 61 А
+cityIn: 09.09.2021 10:00 | КПП2 завод, через станицу Тамань гостинница Бланко
+urlBet10: https://taman.trans.efko.ru/bet.php?LYuqBXFH_4YeU4XIbCVGrnN4D9GkSEbyoT2s_HQ_t6A
 
-num: 108423
-cityOut: 23.12.2020 14:00 | ст. Тамань,
-cityIn: 23.12.2020 15:00 | КПП 2
-urlBet10: http://taman.trans.efko.ru/bet.php?gbtO0D6zACrwXSERtpW3k6P4XqHQtY8_mJN9ItDnZKA
+num: 127388
+cityOut: 09.09.2021 11:00 | ООО ПИ
+cityIn: 09.09.2021 12:00 | г.Керчь
+urlBet10: https://taman.trans.efko.ru/bet.php?6yPonNgfRGS03v3mqfaqWSHTFlviU3k8MNLf1e_Cl0M
 
-num: 108424
-cityOut: 23.12.2020 13:30 | г. Темрюк, администрация-ст. Ахтанизовская, сбербанк-ст. Старотитаровская, Ветерок
-cityIn: 23.12.2020 15:00 | КПП 2
-urlBet10: http://taman.trans.efko.ru/bet.php?mHtbDhszmTbL1cwdcBb4-2Fu2Ah3GBTVr-nhkGqDjYE
+num: 127453
+cityOut: 09.09.2021 04:00 | г. Анапа, ул. Шевченко 288б, корпус 4
+cityIn: 09.09.2021 06:00 | КПП 3
+urlBet10: https://taman.trans.efko.ru/bet.php?WWMzTQc39Spa4pH8TZ_7w4GEHwfMKOSsunE1_Y25lPs
 
-num: 108430
-cityOut: 23.12.2020 14:00 | ст. Старотитаровская
-cityIn: 23.12.2020 15:00 | КПП2
-urlBet10: http://taman.trans.efko.ru/bet.php?uavqZ0CCRb79WRMTT5-cQflmcoSPtwBS7k1NGukY4lI
+num: 127458
+cityOut: 09.09.2021 11:00 | ТЗПМ
+cityIn: 09.09.2021 14:00 | ТЗПМ - ФСК - ТЗПМ - г. Анапа, ул. Шевченко 288б, корпус 4
+urlBet10: https://taman.trans.efko.ru/bet.php?2o2VHYOp02Gp0pUCYt6Kp0cDJsnxOdOvKpCGpJikVPs
 
-num: 108509
-cityOut: 23.12.2020 19:00 | ООО-ПИ
-cityIn: 23.12.2020 20:00 | п.Сенной,ул.Мира 94
-urlBet10: http://taman.trans.efko.ru/bet.php?61-vX-KeaQxGPFjbabwpMrGd64nqvfWOIEvFurA1Cto
+num: 127482
+cityOut: 09.09.2021 07:00 | п.Виноградный, ул.Гагарина, д.6, ул.Верхняя, д.15
+cityIn: 09.09.2021 08:00 | ст.Тамань, гостиница Бланко
+urlBet10: https://taman.trans.efko.ru/bet.php?Fumy6AIw-pHlPR1ZkMPggi4YrTp1cUpqroyh6cS_EpI
 
-num: 108515
-cityOut: 23.12.2020 10:30 | ООО ПИ-гост Бланко
-cityIn: 23.12.2020 12:30 | Гост Бланко- ООО ПИ
-urlBet10: http://taman.trans.efko.ru/bet.php?HFIX1DfmUHJCyfB7Xsh87foMoitnDtXhP4uS7ZoaHQs
+num: 127484
+cityOut: 09.09.2021 20:00 | ст.Тамань, гостиница Бланко
+cityIn: 09.09.2021 21:00 | п.Виноградный, ул.Гагарина, д.6, ул.Верхняя, д.15
+urlBet10: https://taman.trans.efko.ru/bet.php?TO4nAV5gwounE2tfD3zT8wzz8HuCYsCN-5o4cMeGegs
 
-num: 108587
-cityOut: 23.12.2020 07:35 | Завод
-cityIn: 23.12.2020 08:20 | гостиница "Бланко"
-urlBet10: http://taman.trans.efko.ru/bet.php?Infw5aPOH5-Pvz5quCqEKYHkV6nGFfzZPz_-YyRS5PQ
+num: 127494
+cityOut: 09.09.2021 08:00 | ст.Тамань, гостиница Бланко
+cityIn: 09.09.2021 08:30 | перекресток Прогресс-Тамань
+urlBet10: https://taman.trans.efko.ru/bet.php?sXVx3tyH_oWZLftTQ6Ji09NofjiatifOR2eI1AlkErc
 
-num: 108588
-cityOut: 23.12.2020 16:35 | гостиница "Бланко"
-cityIn: 23.12.2020 17:10 | Завод
-urlBet10: http://taman.trans.efko.ru/bet.php?TJqQsJJ9Ju7e2DvgBrwf46f39eg465OurVX9gcOZ-I8
+num: 127496
+cityOut: 09.09.2021 19:30 | перекрсток Прогресс-Тамань
+cityIn: 09.09.2021 20:00 | ст.Тамань, гостиница Бланко
+urlBet10: https://taman.trans.efko.ru/bet.php?jOkdZKkQvxCJMBb6a8q2mr7F_RQAzkx21dFszjitJkI
 
-num: 108611
-cityOut: 23.12.2020 08:30 | КПП №2 ООО "ПИ"
-cityIn: 23.12.2020 15:00 | Учебный центр
-urlBet10: http://taman.trans.efko.ru/bet.php?sXRTs7NhWArPI8AEDPGVRiFeMmID0Mq_ptOTRtudCFs
+num: 127518
+cityOut: 09.09.2021 07:45 | КПП № 2 ООО "ПИ"
+cityIn: 09.09.2021 17:10 | Учебный корпус
+urlBet10: https://taman.trans.efko.ru/bet.php?dmcY1h4W0KgC1Q6fgDjtxPj77Cs2fc2xnOCFYIwCmog
 
-num: 108619
-cityOut: 23.12.2020 14:30 | КПП-2
-cityIn: 23.12.2020 16:00 | г. Керчь, ул. Свердлова, д.17
-urlBet10: http://ya.ru
+num: 127533
+cityOut: 09.09.2021 07:40 | Завод
+cityIn: 09.09.2021 08:10 | Бланко
+urlBet10: https://taman.trans.efko.ru/bet.php?vOEVIqL_6u3Wt_thp1Q5hBBqtPAom47NlefEizTuc2k
 
-num: 108621
-cityOut: 23.12.2020 13:00 | КПП-2
-cityIn: 23.12.2020 16:00 | г. Темрюк, ул. Бувина, д. 280
-urlBet10: http://taman.trans.efko.ru/bet.php?p2u_a9ROPo4w61cDDV9PAmDaFCbFyfHqh0NNrHtzGP8
+num: 127534
+cityOut: 09.09.2021 16:40 | Бланко
+cityIn: 09.09.2021 17:10 | Завод
+urlBet10: https://taman.trans.efko.ru/bet.php?hS-6ASLFwoqIAu6tnROpph6pyoB-mt8VBUQM94mGVog
 
-num: 108648
-cityOut: 23.12.2020 08:00 | гостиница Бланко
-cityIn: 23.12.2020 08:30 | перекресток Прогресс-Тамань
-urlBet10: http://taman.trans.efko.ru/bet.php?nDC8tLemXo6ngJJ3-LhCcj19DIotVbxrktXKRPKDhfA
+num: 127542
+cityOut: 09.09.2021 03:00 | г..Анапа ул.Адмирала Пустошкина д22 корп 6 подъезд 1
+cityIn: 09.09.2021 | МЖУ, ПИ, г.Анапа ул.Адмирала Пустошкина д22 корп 6
+urlBet10: https://taman.trans.efko.ru/bet.php?D4XCvUCuxJ2xNUVdaXxh8DbQJoRuaPRpCrhfVHlCONU
 
-num: 108649
-cityOut: 23.12.2020 19:30 | перекресток Прогресс-Тамань
-cityIn: 23.12.2020 20:00 | гостиница Бланко
-urlBet10: http://taman.trans.efko.ru/bet.php?Aa6e6f6pWqxaCsZ_bsTsemjqqJ4F_Qnl6gnyX9GIkfU
+num: 127547
+cityOut: 09.09.2021 08:30 | МТТ
+cityIn: 09.09.2021 16:30 | МТТ Черноморка Сенной, Тамань
+urlBet10: https://taman.trans.efko.ru/bet.php?pDIH0i00wpexB3o0Wp2JqiZFra2o9_4YwUACFFazVas
 
-num: 108678
-cityOut: 23.12.2020 08:30 | ПИ - Сенной - Черноморка - Волна - ПИ
-cityIn: 23.12.2020 16:30 | ТЗПМ
-urlBet10: http://taman.trans.efko.ru/bet.php?VszEiwYaamkiA9MG99qj6Bpx6HQ9qCP-O2tnMD4ki_o
+num: 127582
+cityOut: 09.09.2021 10:00 | г. Краснодар, ул. Красная 25/2, гостиница "Хилтон"
+cityIn: 09.09.2021 | г. Анапа, Привокзальная, д.1;г. Краснодар,ж/д вокзал
+urlBet10: https://taman.trans.efko.ru/bet.php?UhrFaFQIZXAbGG8tsvukYUjWfUJaZZgu-NOwnH8fx-s
 
-num: 108690
-cityOut: 23.12.2020 08:30 | ст. Вышестеблиевская, пер. Советский, 41А (ДК)
-cityIn: 23.12.2020 14:00 | г. Анапа, ул. Ленина, 95 - ст. Вышестеблиевская, пер. Советский, 41А (ДК)
-urlBet10: http://taman.trans.efko.ru/bet.php?G5QgptE21MvFAyhqy9WZr43k19WoFP_nbV_pJvP-agI
+num: 127592
+cityOut: 09.09.2021 05:30 | п. Виноградный ул. Светлая 9
+cityIn: 09.09.2021 06:00 | завод ООО "ТЗПМ"
+urlBet10: https://taman.trans.efko.ru/bet.php?wHMMXYe9YtA3Ijp07jNJ_kIJOoq5yXbPvM7Drf-LyMA
 
-num: 108692
-cityOut: 23.12.2020 14:00 | КПП2
-cityIn: 23.12.2020 16:00 | пос.Мирный, ст.Тамань
-urlBet10: http://taman.trans.efko.ru/bet.php?fTAq6XPK4RnCdT1RCOJU5-Pa0kS1Kw8NlozuS2wLiCs
+num: 127593
+cityOut: 09.09.2021 06:30 | Темрюк, ул. Краснодарская 38
+cityIn: 09.09.2021 21:00 | Завод-Тамань-Темрюк-Завод
+urlBet10: https://taman.trans.efko.ru/bet.php?QKglAZXHPuNpnjFCVIITjHQ-kuE39kx9LZ3miXinTzk
 
-num: 108693
-cityOut: 23.12.2020 08:00 | ПИ
-cityIn: 23.12.2020 19:00 | ПИ,МЖУ,ВРСП,Старотитаровская
-urlBet10: http://taman.trans.efko.ru/bet.php?RdqxT4E57tK0LvN_eWZyYOiwQlMbJkr5jhArp3PWvrE
+num: 127594
+cityOut: 09.09.2021 13:00 | завод ООО "ТЗПМ"
+cityIn: 09.09.2021 13:30 | п. Виноградный ул. Светлая
+urlBet10: https://taman.trans.efko.ru/bet.php?OLzz_tb6iHAxvqj-wn-TmJkF676dRar29Go7ciqXya8
 
-num: 108694
-cityOut: 23.12.2020 07:00 | перекресток Прогресс-Тамань
-cityIn: 23.12.2020 07:50 | ресторан Бланко
-urlBet10: http://taman.trans.efko.ru/bet.php?WFF70rNy3n5trpRMbyLTfJw_xPOVaM-Jdbl08mzGrtw
+num: 127595
+cityOut: 09.09.2021 15:30 | КПП-2
+cityIn: 09.09.2021 17:00 | п.п. Сенной, ст. Старотитаровская
+urlBet10: https://taman.trans.efko.ru/bet.php?68uTp5YJQrRULZOvjCqRQUkBMOeGKpBNixAjF3Dey1M
 
-num: 108696
-cityOut: 23.12.2020 20:00 | ресторан Бланко
-cityIn: 23.12.2020 20:40 | КПП2
-urlBet10: http://taman.trans.efko.ru/bet.php?wgLgg-c8Qc2RV0hIuQDu1_xiYkiHh6PX41p1CDfbtJ0
+num: 127596
+cityOut: 09.09.2021 07:30 | ст. Вышестеблиевская ул.Береговая, д.42 кв.2
+cityIn: 09.09.2021 08:00 | п.Сенной МЖУ
+urlBet10: https://taman.trans.efko.ru/bet.php?0k6l6lx9SntwrZ-dMztGew9alFQ_C_49o5KsjlSrEEo
 
-num: 108701
-cityOut: 23.12.2020 20:00 | ресторан Бланко
-cityIn: 23.12.2020 21:00 | КПП2 - п. Волна Победы 3/2
-urlBet10: http://taman.trans.efko.ru/bet.php?SfQ9pNfNGp-fo1TIjfdO5FQKIZkTo088rDHPkqg_6Xc
+num: 127597
+cityOut: 09.09.2021 19:00 | КПП-2
+cityIn: 09.09.2021 20:30 | г. Темрюк, ул. Таманская, 56б
+urlBet10: https://taman.trans.efko.ru/bet.php?AVdreK2IDLGDKUZrQyZ0my7Ur7KDRYpXj5L6lndPRo0
 
-num: 108711
-cityOut: 23.12.2020 07:30 | пос. Пересыпь, ул. Чапаева, д. 26
-cityIn: 23.12.2020 11:00 | ж/д участок пос. Сенной, ст. Тамань гостиница "Бланко", ВРСП Черноморский, Учебный класс, КПП №2 ООО "Пищевые ингредиенты"
-urlBet10: http://taman.trans.efko.ru/bet.php?V02OjmsIlKblHEIrwxzudYpKBf_V8naNrPNRceJ9_zI
+num: 127598
+cityOut: 09.09.2021 07:20 | ст.Тамань, ул.Мира, д7, п.Сенной МЖУ, завод
+cityIn: 09.09.2021 21:00 | п.Сенной МЖУ, завод, ст.Тамань, ул.Мира, д7, ст. Вышестеблиевская ул.Береговая, д.42 кв.2
+urlBet10: https://taman.trans.efko.ru/bet.php?G-WF3wUiRhS_bbuwRejxqFEjSW57ibQ26BTH1YfHYLk
 
-num: 108715
-cityOut: 22.12.2020 17:10 | КПП Сенная
-cityIn: 22.12.2020 | г. Темрюк
-urlBet10: http://ya.ru
+num: 127600
+cityOut: 09.09.2021 08:00 | ПИ
+cityIn: 09.09.2021 17:00 | ПИ,МЖУ,ВРСП,Старотитаровская
+urlBet10: https://taman.trans.efko.ru/bet.php?KRy6upkGhlALdZflCob-GxrRlGLr67MHGS1n9C5_pCM
 
-num: 108718
-cityOut: 23.12.2020 07:00 | Кучугуры, Краснофлотская, 17
-cityIn: 23.12.2020 21:00 | Завод, Темрюк, Тамань, Кучугуры
-urlBet10: http://taman.trans.efko.ru/bet.php?RPThLmSLUbb5Fq1YdtL9Af91uPitkcQIPAsFIeb4xSE
+num: 127609
+cityOut: 08.09.2021 18:30 | Краснодарский край п. Волна ООО Пищевые Ингредиенты
+cityIn: 08.09.2021 19:00 | Краснодарский край п. Волна гостиница Звезда тамани
+urlBet10: https://taman.trans.efko.ru/bet.php?qeidqyaLB7DmZ_rWzqUxN6n4G5jE-P5C9lgNym3u3ro
 
-num: 108719
-cityOut: 23.12.2020 07:20 | ст. Тамань ул. Мира,7, Сенной (МЖУ), завод, п. Прогресс ул. Степная д.6
-cityIn: 23.12.2020 20:30 | Сенной (МЖУ), завод, ст. Тамань ул. Мира,7
-urlBet10: http://taman.trans.efko.ru/bet.php?pyQV0BsvvKinMuCSqedP11b_KdCsRV1jejkDmajf2GM
+num: 127610
+cityOut: 09.09.2021 07:30 | Краснодарский край п. Волна гостиница Звезда тамани
+cityIn: 09.09.2021 08:00 | Краснодарский край п. Волна ООО Пищевые ингредиенты
+urlBet10: https://taman.trans.efko.ru/bet.php?EQzY5_Mz_H1jFB_HekTMbNIDahtDXGuuf7AYjBy18q4
 
-num: 108727
-cityOut: 23.12.2020 12:00 | ООО ПИ КПП 2
-cityIn: 23.12.2020 14:00 | г. Анапа ул. Адмирала Пустошкина д. 22 стр. 4
-urlBet10: http://taman.trans.efko.ru/bet.php?7DiWcWiiK6N4VgqDgt4cVEJ5fPCwmUCXfn9foiH4HKc
+num: 127628
+cityOut: 09.09.2021 08:00 | г. Темрюк, СЭС
+cityIn: 09.09.2021 17:00 | КПП2, завод - г. Темрюк, СЭС - КПП2, завод
+urlBet10: https://taman.trans.efko.ru/bet.php?OzjErjp8fm6eKnxn6Iuvo4OGJufG73ZESmMXaGI1_Ug
 
-num: 108728
-cityOut: 23.12.2020 10:00 | ООО "ПИ"
-cityIn: 23.12.2020 13:00 | склад п.Сенной - ООО "ПИ"
-urlBet10: http://taman.trans.efko.ru/bet.php?Zewj5Zim9rReFHfgAJGPFUR0aWJTX--W-MvkkD58FKw
+num: 127630
+cityOut: 09.09.2021 17:10 | КПП Сенная
+cityIn: 09.09.2021 18:30 | г. Темрюк
+urlBet10: https://taman.trans.efko.ru/bet.php?yrjqe9ZiuMS3OqRpXqbRPRg55d98ja0xUjq6xGoAvzw
 
-num: 108734
-cityOut: 23.12.2020 18:30 | КПП2
-cityIn: 23.12.2020 19:30 | ст.Тамань, ул. Лебедева.7
-urlBet10: http://taman.trans.efko.ru/bet.php?8xH9YpdM6CjgqvU_PqOZFQPpi8UgoPcz4xmp2P0Tcbg
+num: 127635
+cityOut: 09.09.2021 15:00 | ТЗПМ
+cityIn: 09.09.2021 17:00 | Ст. Тамань, ул Карла Маркса 174- ст. Тамань ул. Ленина 96
+urlBet10: https://taman.trans.efko.ru/bet.php?VTFnesq3SCvlOYQVrw0lSAGJIB9WDRm1QFVWVMUUR98
 
-num: 108735
-cityOut: 23.12.2020 19:00 | ПИ
-cityIn: 23.12.2020 21:00 | Темрюк
-urlBet10: http://taman.trans.efko.ru/bet.php?DtZE21DVMXHVcFqRDMphFGk8b7dWpIlOagKdCFSuNiU
+num: 127636
+cityOut: 09.09.2021 08:00 | стоянка ПИ
+cityIn: 09.09.2021 19:00 | стоянка ПИ-склад п.Сенной-стоянка ПИ-склад п.Сенной-стоянка ПИ-п.Ильич ул.Ленина 41
+urlBet10: https://taman.trans.efko.ru/bet.php?q_6is-IEozE5eoVc7-mm9VcNUqipGrkw8v38MuNQ1mU
 
-num: 108741
-cityOut: 23.12.2020 08:00 | РП 7
-cityIn: 23.12.2020 20:00 | РП 7
-urlBet10: http://taman.trans.efko.ru/bet.php?7iX96APyc-ATeSk2ViNnYGGfTJ-vXs8IW4KMbSiCFK0
+num: 127640
+cityOut: 09.09.2021 07:00 | Станица Тамань, ул. Карла Маркса 9а
+cityIn: 09.09.2021 11:00 | г. Темрюк ул. Люксенбург 21а, КПП 2
+urlBet10: https://taman.trans.efko.ru/bet.php?DIJzMYOSCVHfOUOR6zb6iX6EEF6spWbpdk0IJkfK93Q
 
-num: 108745
-cityOut: 23.12.2020 20:00 | РП 7
-cityIn: 24.12.2020 08:00 | РП 7
-urlBet10: http://taman.trans.efko.ru/bet.php?RqKuwC-cfUzVKIiHRTKb1bQgf7-LCvLEw-r_NmhaXlY
+num: 127642
+cityOut: 09.09.2021 08:00 | ст. Ахтанизовская, ул. Курганная, д.10
+cityIn: 09.09.2021 13:00 | г. Новороссийск, п. Гайдук, ул. Новороссийское шоссе, д.59 - ООО "Пищевые Ингредиенты"
+urlBet10: https://taman.trans.efko.ru/bet.php?lJHbH1RWPThvUCbKDrbeNCx8_VERsAsj9ys8cHRRbZ0
 
-num: 108748
-cityOut: 23.12.2020 11:00 | Завод
-cityIn: 23.12.2020 18:00 | Темрюк ул Розы Люксембур -  Тамань ул Пролетарская 52
-urlBet10: http://taman.trans.efko.ru/bet.php?gWmnOzOED5rsdeCibzHXrnIsyJpaGdQnYUJmN5Re5Pg
+num: 127644
+cityOut: 09.09.2021 08:00 | ст.Тамань, гостиница Бланко - г. Краснодар, ул. Коммунаров, д.266, Ростовское шоссе, д.26/1
+cityIn: 09.09.2021 17:00 | г.Краснодар, ул. Коммунаров, д.266, Ростовское шоссе, д.26/1 - ст.Тамань, гостиница Бланко
+urlBet10: https://taman.trans.efko.ru/bet.php?Y74LsiP0uAX-REkG_gqCrPsM_KFMYEPJCPMH386_iKE
 
-num: 108750
-cityOut: 23.12.2020 17:10 | КПП Сенная
-cityIn: 23.12.2020 | г.Темрюк
-urlBet10: http://taman.trans.efko.ru/bet.php?5O-ZoVni6LsacFJI7-XVBusj6Ht9wM4ZJHV1i7Me8Jo
-
-num: 108753
-cityOut: 23.12.2020 16:00 | ООО "ТЗПМ"
-cityIn: 23.12.2020 18:00 | ЦОКЗ Тамань - Сенной
-urlBet10: http://taman.trans.efko.ru/bet.php?38okMTKB4MohiP7V7lZH0PXQOO-4t1nlyIDJTHWbK-o
-
-num: 108761
-cityOut: 23.12.2020 07:30 | ст. Тамань, ул. Пролетарская, д.73А
-cityIn: 23.12.2020 11:30 | г. Темрюк (по месту) - КПП2 завод
-urlBet10: http://taman.trans.efko.ru/bet.php?3IVqb5jKEwRE90a3PqBL2Ox2_uypYEvM3CeB9edoe40
-
-num: 108763
-cityOut: 22.12.2020 19:30 | КПП №2 площадка Тамань
-cityIn: 22.12.2020 20:00 | ст.Тамань, ул.Карла Маркса дом 248
-urlBet10: http://taman.trans.efko.ru/bet.php?JBczbpilrku_DEq1lfZwCedXBQllyTTi5E3ztqS6gXM
-
-num: 108765
-cityOut: 23.12.2020 13:00 | стоянка ПИ
-cityIn: 23.12.2020 19:00 | склад п.Сенной-стоянка ПИ-п.Ильич ул.Ленина 41
-urlBet10: http://taman.trans.efko.ru/bet.php?kR89gEPSCnWqrrkwUbm6SnqqrKwuECeZOQeCnbmoIIA
-
-num: 108767
-cityOut: 23.12.2020 18:00 | ПИ
-cityIn: 23.12.2020 20:00 | пос. Сенной, ст. Ахтанизовская
-urlBet10: http://taman.trans.efko.ru/bet.php?45lH2xbQtyAn1005r7cPXjYpsK5zLcFwU0P8cCt7FOU
-
-num: 108774
-cityOut: 23.12.2020 19:00 | Завод ПИ, КПП 2
-cityIn: 23.12.2020 20:00 | г. Темрюк, ул. Анджиевского, 47/2
-urlBet10: http://taman.trans.efko.ru/bet.php?KA7HE_8XpT-MGXtZ4Av-XjTpnK1tRvAdqP9_roMv1uI
+num: 127656
+cityOut: 09.09.2021 08:30 | ст.Тамань, гостиница Бланко - ул.Пролетарская, д.73А
+cityIn: 09.09.2021 10:00 | ст.Тамань ул. Пролетарская, д.73А - гостиница Бланко
+urlBet10: https://taman.trans.efko.ru/bet.php?AtoECaMAKd9ak71K-tde4_-5At1oGbwr7rBd6tnA6bo
 

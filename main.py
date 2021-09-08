@@ -15,28 +15,32 @@ session = requests.Session()
 def parser():
 
     #url = "http://y91805lt.beget.tech/index.html"
-    url = "http://taman.trans.efko.ru/trade/2"
-    urlAuth = "http://taman.trans.efko.ru/login.php"
-    urlLogout = "http://taman.trans.efko.ru/logout.php"
-    urlBet = "http://taman.trans.efko.ru"
+    url = "https://taman.trans.efko.ru/trade/2"
+    urlAuth = "https://taman.trans.efko.ru/login.php"
+    urlLogout = "https://taman.trans.efko.ru/logout.php"
+    urlBet = "https://taman.trans.efko.ru"
 
     betTask = []
     i=0
 
-    session.post(urlAuth, config.data, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    session.post(urlAuth, config.data, verify=True, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
-    html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    html = session.get(url, verify=True, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
     soup = BeautifulSoup(html.content, 'lxml')
+    #print(soup)
 
     while soup.find('table') == None:
-          html = session.get(url, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
-          soup = BeautifulSoup(html.content, 'lxml')
-          i += 1
+        html = session.get(url, verify=True, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+        soup = BeautifulSoup(html.content, 'lxml')
+        i += 1
+    # f = open(os.path.join(script_dir, 'logs/html.txt'), 'w', encoding='utf-8')
+    # f.write(str(html.content))
+    # f.close() #сохранить html
 
     for rows in soup.find_all('tr')[1:]:
         cols = rows.find_all('td')
 
-        links = rows.find_all('button', text=re.compile("10"), class_='newbet')
+        links = rows.find_all('button', text=re.compile("11"), class_='newbet')
         linkBet = None
 
         if not links:
@@ -72,7 +76,7 @@ def parser():
                 if count < config.sumBet:
                     urlBet = str(betTask[i].get('urlBet10'))
 
-                    session.get(urlBet, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+                    session.get(urlBet, verify=True, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
                     msg = '✅ <b>' + betTask[i].get('num') + '</b>\n⏺ ' + betTask[i].get('cityOut') + '\n➡️ ' + betTask[i].get('cityIn') + '\n\n'
 
@@ -83,7 +87,7 @@ def parser():
                     count += 1
 
 
-    session.get(urlLogout, verify=False, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
+    session.get(urlLogout, verify=True, headers={'User-Agent': UserAgent(verify_ssl=False).chrome})
 
     f = open(os.path.join(script_dir, 'logs/log_bet.txt'), 'w', encoding='utf-8')
     for i in range(len(betTask)):
